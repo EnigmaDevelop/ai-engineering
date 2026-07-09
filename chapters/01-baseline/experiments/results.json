@@ -1,0 +1,74 @@
+{
+  "dataset": {
+    "n_rows": 7043,
+    "n_train": 5634,
+    "n_test": 1409,
+    "churn_rate_overall": 0.2653698707936959,
+    "churn_rate_train": 0.2653532126375577,
+    "churn_rate_test": 0.2654364797728886
+  },
+  "model": {
+    "type": "xgboost.XGBClassifier",
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "scale_pos_weight": 2.768561872909699,
+    "random_state": 42,
+    "test_size": 0.2
+  },
+  "cross_validation": {
+    "folds": 5,
+    "roc_auc_mean": 0.8439000198708575,
+    "roc_auc_std": 0.009848361742417613,
+    "f1_mean": 0.6315148298044335,
+    "f1_std": 0.011680190812340384
+  },
+  "test_set_metrics": {
+    "xgboost": {
+      "accuracy": 0.7551454932576295,
+      "precision": 0.5264116575591985,
+      "recall": 0.7727272727272727,
+      "f1": 0.6262188515709642,
+      "roc_auc": 0.8404970420315688,
+      "pr_auc": 0.6544771869853016,
+      "brier_score": 0.16084615886211395
+    },
+    "majority_class_baseline": {
+      "accuracy": 0.7345635202271115,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.2654364797728886,
+      "brier_score": 0.2654364797728886
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "no_churn",
+      "churn"
+    ],
+    "matrix": [
+      [
+        775,
+        260
+      ],
+      [
+        85,
+        289
+      ]
+    ]
+  },
+  "top_10_feature_importance": {
+    "Contract": 0.3140000104904175,
+    "InternetService": 0.13840000331401825,
+    "OnlineSecurity": 0.11860000342130661,
+    "TechSupport": 0.06270000338554382,
+    "StreamingMovies": 0.039400000125169754,
+    "tenure": 0.03400000184774399,
+    "PaymentMethod": 0.029899999499320984,
+    "PhoneService": 0.02800000086426735,
+    "StreamingTV": 0.027300000190734863,
+    "PaperlessBilling": 0.025200000032782555
+  }
+}

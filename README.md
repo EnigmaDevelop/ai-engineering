@@ -31,8 +31,8 @@ Real, public datasets only:
 
 | # | Chapter | Focus | Status |
 |---|---------|-------|--------|
-| 0 | [Setup](chapters/00-setup/) | Environment, data ingestion, access verification | 🔨 in progress |
-| 1 | Baseline first | XGBoost churn model — the anchor every LLM result is measured against | ⏳ |
+| 0 | [Setup](chapters/00-setup/) | Environment, data ingestion, access verification | ✅ done |
+| 1 | [Baseline first](chapters/01-baseline/) | XGBoost churn model — the anchor every LLM result is measured against | ✅ done |
 | 2 | LLM mechanics, locally | Tokenization, sampling, quantization — measured on consumer hardware | ⏳ |
 | 3 | Eval harness | Golden sets, LLM-as-judge, LLM vs TF-IDF on real complaints | ⏳ |
 | 4 | Prompt & context engineering | Few-shot / CoT / context-position effects, all measured | ⏳ |
