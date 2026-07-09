@@ -1,0 +1,169 @@
+{
+  "model": "llama3.2:3b",
+  "n_samples": 10,
+  "prompt_token_cost": {
+    "mean_no_format": 139.8,
+    "mean_with_format": 139.8,
+    "mean_delta": 0.0,
+    "max_abs_delta": 0,
+    "rows": [
+      {
+        "complaint_id": 18398333,
+        "prompt_eval_count_no_format": 142,
+        "prompt_eval_count_with_format": 142,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398362,
+        "prompt_eval_count_no_format": 146,
+        "prompt_eval_count_with_format": 146,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398392,
+        "prompt_eval_count_no_format": 135,
+        "prompt_eval_count_with_format": 135,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398394,
+        "prompt_eval_count_no_format": 135,
+        "prompt_eval_count_with_format": 135,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398448,
+        "prompt_eval_count_no_format": 139,
+        "prompt_eval_count_with_format": 139,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398450,
+        "prompt_eval_count_no_format": 143,
+        "prompt_eval_count_with_format": 143,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398485,
+        "prompt_eval_count_no_format": 138,
+        "prompt_eval_count_with_format": 138,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398486,
+        "prompt_eval_count_no_format": 143,
+        "prompt_eval_count_with_format": 143,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398524,
+        "prompt_eval_count_no_format": 142,
+        "prompt_eval_count_with_format": 142,
+        "delta": 0
+      },
+      {
+        "complaint_id": 18398534,
+        "prompt_eval_count_no_format": 135,
+        "prompt_eval_count_with_format": 135,
+        "delta": 0
+      }
+    ]
+  },
+  "completion_token_cost": {
+    "mean_no_enum": 52.1,
+    "mean_with_enum": 65.7,
+    "mean_delta": 13.6,
+    "rows": [
+      {
+        "complaint_id": 18398333,
+        "true_product": "Debt collection",
+        "eval_count_no_enum": 41,
+        "eval_count_with_enum": 60,
+        "delta": 19,
+        "product_no_enum": "Consumer Complaint",
+        "product_with_enum": "Debt collection"
+      },
+      {
+        "complaint_id": 18398362,
+        "true_product": "Credit card",
+        "eval_count_no_enum": 40,
+        "eval_count_with_enum": 41,
+        "delta": 1,
+        "product_no_enum": "Company Card",
+        "product_with_enum": "Credit card"
+      },
+      {
+        "complaint_id": 18398392,
+        "true_product": "Debt collection",
+        "eval_count_no_enum": 75,
+        "eval_count_with_enum": 85,
+        "delta": 10,
+        "product_no_enum": "Consumer Complaint",
+        "product_with_enum": "Credit reporting or other personal consumer reports"
+      },
+      {
+        "complaint_id": 18398394,
+        "true_product": "Debt collection",
+        "eval_count_no_enum": 75,
+        "eval_count_with_enum": 85,
+        "delta": 10,
+        "product_no_enum": "Consumer Complaint",
+        "product_with_enum": "Credit reporting or other personal consumer reports"
+      },
+      {
+        "complaint_id": 18398448,
+        "true_product": "Debt collection",
+        "eval_count_no_enum": 51,
+        "eval_count_with_enum": 75,
+        "delta": 24,
+        "product_no_enum": "consumer reporting",
+        "product_with_enum": "Credit reporting or other personal consumer reports"
+      },
+      {
+        "complaint_id": 18398450,
+        "true_product": "Debt collection",
+        "eval_count_no_enum": 41,
+        "eval_count_with_enum": 62,
+        "delta": 21,
+        "product_no_enum": "Consumer Complaint",
+        "product_with_enum": "Debt collection"
+      },
+      {
+        "complaint_id": 18398485,
+        "true_product": "Checking or savings account",
+        "eval_count_no_enum": 41,
+        "eval_count_with_enum": 42,
+        "delta": 1,
+        "product_no_enum": "savings account",
+        "product_with_enum": "Student loan"
+      },
+      {
+        "complaint_id": 18398486,
+        "true_product": "Debt collection",
+        "eval_count_no_enum": 41,
+        "eval_count_with_enum": 62,
+        "delta": 21,
+        "product_no_enum": "Consumer Complaint",
+        "product_with_enum": "Debt collection"
+      },
+      {
+        "complaint_id": 18398524,
+        "true_product": "Debt collection",
+        "eval_count_no_enum": 41,
+        "eval_count_with_enum": 60,
+        "delta": 19,
+        "product_no_enum": "Consumer Complaint",
+        "product_with_enum": "Debt collection"
+      },
+      {
+        "complaint_id": 18398534,
+        "true_product": "Debt collection",
+        "eval_count_no_enum": 75,
+        "eval_count_with_enum": 85,
+        "delta": 10,
+        "product_no_enum": "Consumer Complaint",
+        "product_with_enum": "Credit reporting or other personal consumer reports"
+      }
+    ]
+  }
+}
