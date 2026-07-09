@@ -1,0 +1,222 @@
+{
+  "model": "llama3.2:3b",
+  "n_samples": 15,
+  "json_parse_rate": 1.0,
+  "schema_valid_rate": 1.0,
+  "loose_product_match_rate": 0.067,
+  "eval_duration_ms_mean": 4289.3,
+  "eval_duration_ms_min": 2714.5,
+  "eval_duration_ms_max": 7614.9,
+  "rows": [
+    {
+      "complaint_id": 18398333,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Consumer Complaint",
+        "issue_summary": "Debt collector violating FDCPA requirements",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 2728.1
+    },
+    {
+      "complaint_id": 18398362,
+      "true_product": "Credit card",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Company Card",
+        "issue_summary": "Unauthorized charge on company card",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 2714.5
+    },
+    {
+      "complaint_id": 18398392,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Consumer Complaint",
+        "issue_summary": "Company failed to provide validation information as required by 12 CFR 1006.34 ( b ) ( 5 ) and 15 U.S.C. 1681s- 2 ( a ).",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 4966.5
+    },
+    {
+      "complaint_id": 18398394,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Consumer Complaint",
+        "issue_summary": "Company failed to provide validation information as required by 12 CFR 1006.34 ( b ) ( 5 ) and 15 U.S.C. 1681s- 2 ( a ).",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 5823.9
+    },
+    {
+      "complaint_id": 18398448,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "consumer reporting",
+        "issue_summary": "Company failed to provide validation information as required by federal regulations, resulting in inaccurate data on consumer reports.",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 7166.3
+    },
+    {
+      "complaint_id": 18398450,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Consumer Complaint",
+        "issue_summary": "Debt collector violating FDCPA requirements",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 3694.9
+    },
+    {
+      "complaint_id": 18398485,
+      "true_product": "Checking or savings account",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "savings account",
+        "issue_summary": "account restriction and closure without explanation",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 3652.2
+    },
+    {
+      "complaint_id": 18398486,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "debt collection",
+        "issue_summary": "Consumer claims debt collector is violating FDCPA (15 U.S.C. 1692g (b)) by not providing proper validation of debt, ceasing collection activities within a specified timeframe.",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": true,
+      "eval_duration_ms": 7614.9
+    },
+    {
+      "complaint_id": 18398524,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Consumer Complaint",
+        "issue_summary": "Debt collector violating FDCPA requirements",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 3173.3
+    },
+    {
+      "complaint_id": 18398534,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Consumer Complaint",
+        "issue_summary": "Company failed to provide validation information as required by 12 CFR 1006.34 ( b ) ( 5 ) and 15 U.S.C. 1681s- 2 ( a ).",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 6235.9
+    },
+    {
+      "complaint_id": 18398547,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Consumer Complaint",
+        "issue_summary": "Debt collector violating FDCPA requirements",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 3001.7
+    },
+    {
+      "complaint_id": 18398558,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "consumer reporting",
+        "issue_summary": "Company failed to provide validation information on consumer report",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 2891.9
+    },
+    {
+      "complaint_id": 18398561,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Consumer Complaint",
+        "issue_summary": "Debt collector violating FDCPA requirements",
+        "urgency": "high",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 3109.1
+    },
+    {
+      "complaint_id": 18398590,
+      "true_product": "Debt collection",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "D & A Services",
+        "issue_summary": "Request for account deletion due to financial difficulties",
+        "urgency": "low",
+        "mentions_legal_action": true
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 4346.0
+    },
+    {
+      "complaint_id": 18398597,
+      "true_product": "Checking or savings account",
+      "json_parsed": true,
+      "schema_valid": true,
+      "extracted": {
+        "product": "Chime Account",
+        "issue_summary": "Account closure without explanation",
+        "urgency": "low",
+        "mentions_legal_action": false
+      },
+      "loose_product_match": false,
+      "eval_duration_ms": 3220.9
+    }
+  ]
+}

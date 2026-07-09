@@ -33,7 +33,7 @@ Real, public datasets only:
 |---|---------|-------|--------|
 | 0 | [Setup](chapters/00-setup/) | Environment, data ingestion, access verification | ✅ done |
 | 1 | [Baseline first](chapters/01-baseline/) | XGBoost churn model — the anchor every LLM result is measured against | ✅ done |
-| 2 | LLM mechanics, locally | Tokenization, sampling, quantization — measured on consumer hardware | ⏳ |
+| 2 | [LLM mechanics, locally](chapters/02-llm-mechanics/) | Tokenization, sampling, structured output, quantization — measured on consumer hardware | ✅ done |
 | 3 | Eval harness | Golden sets, LLM-as-judge, LLM vs TF-IDF on real complaints | ⏳ |
 | 4 | Prompt & context engineering | Few-shot / CoT / context-position effects, all measured | ⏳ |
 | 5 | RAG through a data engineer's lens | Chunking A/B, retrieval metrics, vector store comparison | ⏳ |

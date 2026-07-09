@@ -1,0 +1,32 @@
+{
+  "llama3.2:3b": {
+    "disk_size_bytes": 2019393189,
+    "disk_size_gb": 2.02,
+    "cold_load_duration_ms": 4070.4,
+    "warm_load_duration_ms": 497.6,
+    "mean_tokens_per_sec": 16.2,
+    "mean_eval_duration_ms": 3154.9,
+    "schema_valid_rate": 1.0,
+    "loose_product_match_rate": 0.125
+  },
+  "llama3.2:3b-instruct-q8_0": {
+    "disk_size_bytes": 3421914787,
+    "disk_size_gb": 3.42,
+    "cold_load_duration_ms": 6689.9,
+    "warm_load_duration_ms": 505.4,
+    "mean_tokens_per_sec": 12.7,
+    "mean_eval_duration_ms": 4049.4,
+    "schema_valid_rate": 1.0,
+    "loose_product_match_rate": 0.0
+  },
+  "llama3.2:3b-instruct-fp16": {
+    "disk_size_bytes": 6433703586,
+    "disk_size_gb": 6.43,
+    "cold_load_duration_ms": 22838.1,
+    "warm_load_duration_ms": 605.7,
+    "mean_tokens_per_sec": 7.1,
+    "mean_eval_duration_ms": 7569.5,
+    "schema_valid_rate": 1.0,
+    "loose_product_match_rate": 0.0
+  }
+}

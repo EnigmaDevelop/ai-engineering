@@ -1,0 +1,144 @@
+{
+  "model": "llama3.2:3b",
+  "n_repeats": 8,
+  "prompt_narrative_char_len": 430,
+  "temperature_sweep": {
+    "0.0": {
+      "distinct_outputs": 1,
+      "n": 8,
+      "avg_pairwise_jaccard": 1.0,
+      "outputs": [
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy."
+      ]
+    },
+    "0.3": {
+      "distinct_outputs": 8,
+      "n": 8,
+      "avg_pairwise_jaccard": 0.516,
+      "outputs": [
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating both state and federal laws regarding data accuracy and consumer rights.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, which is in violation of federal laws governing consumer reporting.",
+        "The customer claims that the company has violated their rights by failing to provide validation information as required under federal law, specifically 15 U.S.C. \u00a7 1681s-2(a), and instead placed an incorrect collection on their consumer report.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating two federal laws: 12 CFR 1006.34(b)(5) regarding consumer reports and 15 U.S.C. 1681s-2(a) concerning accurate data reporting.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating two federal laws: 12 CFR 1006.34(b)(5) regarding consumer reports and 15 U.S.C. 1681s-2(a) requiring accurate and complete data reporting.",
+        "The customer claims that the company has placed a collection on their consumer report without providing validation information, violating federal laws including 12 CFR 1006.34(b)(5) and 15 U.S.C. \u00a71681s-2(a).",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating both federal regulations and their own rights as a consumer."
+      ]
+    },
+    "0.7": {
+      "distinct_outputs": 8,
+      "n": 8,
+      "avg_pairwise_jaccard": 0.3855,
+      "outputs": [
+        "The customer claims that the company is violating their rights by providing unverified and potentially inaccurate information on their consumer report, which is a clear violation of federal law under 15 U.S.C. \u00a7 1681s-2(a).",
+        "The customer claims that the company has placed a collection on their consumer report without providing them with necessary validation information, which they believe is a federal law violation under 15 U.S.C. 1681s-2(a).",
+        "The customer claims the company is violating two federal laws, specifically 12 CFR 1006.34(b)(5) and 15 U.S.C. 1681s-2(a), by placing a collection on their consumer report without providing necessary validation information.",
+        "The customer claims that the company is violating their rights under federal law, specifically reporting unverifiable or inaccurate data on their consumer report without providing validation as required by 12 CFR 1006.34(b)(5) and 15 U.S.C. \u00a71681s-2(a).",
+        "The customer claims that the company has placed a collection on their consumer report without providing validation information, violating federal laws under 15 U.S.C. 1681s-2(a) and 12 CFR 1006.34(b)(5).",
+        "The customer claims that the company has placed a collection on their credit report despite failing to provide validation information, which is a requirement under both state and federal laws.",
+        "The customer claims that the company has violated their consumer rights by failing to provide validation information, as required by federal law, despite placing a collection on their credit report.",
+        "The customer claims that the company is violating consumer protection laws by providing unverified information on their credit report, despite not having obtained necessary validation as required under 12 CFR 1006.34(b)(5) and 15 U.S.C. \u00a71681s-2(a)."
+      ]
+    },
+    "1.0": {
+      "distinct_outputs": 8,
+      "n": 8,
+      "avg_pairwise_jaccard": 0.3423,
+      "outputs": [
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal law requiring accurate and complete reporting from data furnishers.",
+        "The customer claims that the company's recent placement of a collection on their credit report violates federal laws, including 12 CFR 1006.34(b)(5) and 15 U.S.C. 1681s-2(a), by failing to provide validation information.",
+        "The customer claims that the company has placed a collection on their credit report despite not providing necessary validation information, violating both state and federal laws regarding the accuracy and completeness of consumer reports.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, allegedly violating two relevant federal laws: the Fair Credit Reporting Act (15 U.S.C. 1681s-2(a)) and the Consumer Financial Protection Bureau's regulations under 12 CFR 1006.34(b)(5).",
+        "The customer claims that the company has provided unverified and potentially inaccurate data on their consumer report, violating federal law regulations.",
+        "The customer claims that the company is violating federal laws, including 12 CFR and 15 U.S.C. requirements, by not providing validation information despite placing a collection on their credit report without proper verification.",
+        "The customer claims that the company has placed a collection on their consumer report without providing them with validation information, which is a requirement under federal law as specified in 12 CFR 1006.34 (b) (5) and 15 U.S.C. \u00a7 1681s-2(a).",
+        "The customer claims that the company has inaccurately reported on their consumer report, violating relevant federal laws and regulations regarding validation and accuracy of reporting."
+      ]
+    },
+    "1.5": {
+      "distinct_outputs": 8,
+      "n": 8,
+      "avg_pairwise_jaccard": 0.3153,
+      "outputs": [
+        "The customer is claiming that the company's recent collection on their credit report, which was placed without providing validation information as required by federal regulations, is violating their rights under specific sections of federal law.",
+        "The customer complaint states that the company has placed a collection on their consumer report despite failing to provide the necessary validation information as mandated by federal regulations, causing stress and potentially violating laws related to reporting accurate and complete data.",
+        "The customer is complaining that the company has placed a collection on their credit report without providing them with necessary validation information, allegedly violating federal law and their rights under 12 CFR 1006.34(b)(5) and 15 U.S.C. 1681s-2(a).",
+        "The customer claims the company has placed a collection on their consumer report without providing required validation information, violating both federal law under 15 U.S.C. \u00a71681s-2(a) and regulations outlined in 12 CFR 1006.34(b)(5).",
+        "The customer claims that the company has violated two federal laws, including 12 CFR 1006.34(b)(5) and 15 U.S.C. 1681s-2(a), by failing to provide validating information before adding a collection to their consumer report.",
+        "The customer claims that the company is in violation of federal regulations by failing to provide necessary validation information and instead issuing incorrect data on their credit report, causing stress.",
+        "The customer claims that the company is violating their rights by providing incomplete and potentially false information in a consumer report without meeting the necessary validation requirements under both state (12 CFR 1006.34(b)(5)) and federal (15 U.S.C. 1681s-2(a)) laws.",
+        "The customer claims the company has placed a collection on their consumer report without providing necessary validation information, allegedly violating federal laws under regulations such as 12 CFR 1006.34 (b) (5) and 15 U.S.C. 1681s-2(a)."
+      ]
+    }
+  },
+  "top_p_sweep": {
+    "0.1": {
+      "distinct_outputs": 1,
+      "n": 8,
+      "avg_pairwise_jaccard": 1.0,
+      "outputs": [
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and accuracy."
+      ]
+    },
+    "0.5": {
+      "distinct_outputs": 8,
+      "n": 8,
+      "avg_pairwise_jaccard": 0.5949,
+      "outputs": [
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting and data accuracy.",
+        "The customer claims that the company has placed a collection on their credit report without providing validation information, violating two federal laws: 12 CFR 1006.34(b)(5) regarding consumer reports and 15 U.S.C. 1681s-2(a) requiring accurate and complete data from data furnishers.",
+        "The customer claims that the company has placed a collection on their credit report without providing validation information, violating two federal laws: 12 CFR 1006.34(b)(5) and 15 U.S.C. 1681s-2(a).",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws including 12 CFR 1006.34(b)(5) and 15 U.S.C. \u00a71681s-2(a).",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws related to consumer reporting.",
+        "The customer claims that the company has placed a collection on their credit report without providing validation information, violating two federal laws: 12 CFR 1006.34(b)(5) regarding consumer rights and 15 U.S.C. 1681s-2(a) requiring accurate and complete data reporting.",
+        "The customer claims that the company has placed a collection on their credit report without providing necessary validation information, violating federal laws regarding data accuracy and consumer rights.",
+        "The customer claims that the company has placed a collection on their credit report without providing validation information, which is a violation of federal law under the Fair Credit Reporting Act (FCRA)."
+      ]
+    },
+    "0.9": {
+      "distinct_outputs": 8,
+      "n": 8,
+      "avg_pairwise_jaccard": 0.3664,
+      "outputs": [
+        "The customer claims that the company is violating their rights under federal law by failing to provide validation information as required, despite placing a collection on their credit report.",
+        "The customer claims that the company has placed a collection on their credit report without providing them with necessary validation information, which they believe is a violation of both state and federal laws regulating consumer reports.",
+        "The customer claims that the company has placed an adverse credit mark on their report without providing necessary validation information, which is in violation of both state and federal laws regarding consumer reports.",
+        "The customer claims that the company's recent collection on their credit report violates federal law, as they have not provided necessary validation information and are reporting potentially unverifiable or inaccurate data.",
+        "The customer claims the company has placed a collection on their credit report without providing necessary validation information, violating federal law and their rights under consumer protection regulations.",
+        "The customer claims that the company has violated their rights under federal law, specifically by not providing validation information as required by regulations (12 CFR 1006.34(b)(5) and 15 U.S.C. \u00a71681s-2(a)), despite placing an accurate collection on their consumer report.",
+        "The customer claims the company has placed a collection on their credit report without providing necessary validation information, allegedly violating federal law by reporting incomplete or inaccurate data.",
+        "The customer claims that the company has placed a collection on their credit report without providing sufficient validation information, violating two federal laws related to consumer reports and accuracy in reporting."
+      ]
+    },
+    "1.0": {
+      "distinct_outputs": 8,
+      "n": 8,
+      "avg_pairwise_jaccard": 0.3742,
+      "outputs": [
+        "The customer complaint states that the company has placed a collection on their consumer report without providing validation information, which is in violation of federal laws regulating reporting of accurate and complete information in consumer reports.",
+        "The customer claims the company has placed a collection on their credit report without providing necessary validation information, violating both state and federal laws regarding accurate and complete reporting.",
+        "The customer claims that a company has placed a collection on their consumer report without providing the necessary validation information, which is a clear violation of federal law requiring data furnishers to provide accurate and complete information as stated in 15 U.S.C. \u00a7 1681s-2(a).",
+        "The customer claims that the company has placed a collection on their consumer report despite failing to provide necessary validation information as required by federal law, specifically 15 U.S.C. 1681s-2(a).",
+        "The customer claims that the company is in violation of federal regulations by reporting incomplete and potentially inaccurate validation information on their credit report, which they argue is required by federal law.",
+        "The customer claims that the company has placed a collection on their credit report without providing validation information, which they believe is a clear violation of federal law and their rights under specific consumer protection regulations.",
+        "The customer claims that the company has placed a collection on their consumer report despite not providing any validation information, which is a potential violation of federal law under 15 U.S.C. 1681s-2(a).",
+        "The customer claims that the company's recent collection on their consumer report, which did not include validation information, violates federal law by reporting unverifiable or inaccurate data."
+      ]
+    }
+  }
+}

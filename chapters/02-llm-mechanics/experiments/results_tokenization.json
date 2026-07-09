@@ -1,0 +1,88 @@
+{
+  "samples": [
+    {
+      "complaint_id": 18398333,
+      "char_len": 527,
+      "models": {
+        "llama3.2:3b": {
+          "raw_token_count": 103,
+          "chars_per_token": 5.117
+        },
+        "qwen2.5:3b": {
+          "raw_token_count": 108,
+          "chars_per_token": 4.88
+        }
+      }
+    },
+    {
+      "complaint_id": 18398362,
+      "char_len": 509,
+      "models": {
+        "llama3.2:3b": {
+          "raw_token_count": 107,
+          "chars_per_token": 4.757
+        },
+        "qwen2.5:3b": {
+          "raw_token_count": 106,
+          "chars_per_token": 4.802
+        }
+      }
+    },
+    {
+      "complaint_id": 18398383,
+      "char_len": 264,
+      "models": {
+        "llama3.2:3b": {
+          "raw_token_count": 57,
+          "chars_per_token": 4.632
+        },
+        "qwen2.5:3b": {
+          "raw_token_count": 57,
+          "chars_per_token": 4.632
+        }
+      }
+    },
+    {
+      "complaint_id": 18398392,
+      "char_len": 430,
+      "models": {
+        "llama3.2:3b": {
+          "raw_token_count": 96,
+          "chars_per_token": 4.479
+        },
+        "qwen2.5:3b": {
+          "raw_token_count": 102,
+          "chars_per_token": 4.216
+        }
+      }
+    },
+    {
+      "complaint_id": 18398394,
+      "char_len": 430,
+      "models": {
+        "llama3.2:3b": {
+          "raw_token_count": 96,
+          "chars_per_token": 4.479
+        },
+        "qwen2.5:3b": {
+          "raw_token_count": 102,
+          "chars_per_token": 4.216
+        }
+      }
+    }
+  ],
+  "template_tax": {
+    "llama3.2:3b": {
+      "probe": "Hello, how are you today?",
+      "raw_tokens": 8,
+      "templated_tokens": 32,
+      "template_overhead_tokens": 24
+    },
+    "qwen2.5:3b": {
+      "probe": "Hello, how are you today?",
+      "raw_tokens": 7,
+      "templated_tokens": 36,
+      "template_overhead_tokens": 29
+    }
+  }
+}
