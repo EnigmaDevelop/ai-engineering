@@ -87,4 +87,12 @@ DuckDB's `read_csv_auto` reading the raw CSVs directly — no pandas round-trip)
   sampling strategy rather than operating on the full table by default — full-table operations at
   this row count on a 15.4 GB RAM machine are a real constraint, not a hypothetical one.
 
-_(both acceptance criteria for this chapter are now met — see checklist above)_
+**Lint/test pass, measured 2026-07-09:**
+
+- `uv run ruff check .` → `All checks passed!`
+- `uv run pytest` → `collected 0 items`, `no tests ran in 0.01s` (exit code 5). No test files exist
+  yet anywhere under `tests/` or `chapters/` — expected at this stage, not a failure. The command
+  itself runs clean against the current `pyproject.toml` config; later chapters add real test
+  suites and this becomes a real pass/fail gate.
+
+_(all three acceptance criteria for this chapter are now met — see checklist above)_
