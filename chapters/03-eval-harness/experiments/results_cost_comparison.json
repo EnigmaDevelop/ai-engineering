@@ -1,0 +1,29 @@
+{
+  "tfidf": {
+    "n_train": 800,
+    "n_test": 201,
+    "fit_vectorizer_s": 0.1232,
+    "fit_classifier_s": 0.0578,
+    "predict_s": 0.0215,
+    "total_s": 0.2025,
+    "rows_per_s_predict_only": 9366.9,
+    "rows_per_s_full_pipeline": 4943.0
+  },
+  "llm": {
+    "n_rows": 1001,
+    "total_eval_s": 3002.7,
+    "total_eval_min": 50.04,
+    "mean_s_per_row": 3.0,
+    "std_s_per_row": 1.404,
+    "rows_per_s": 0.333,
+    "token_estimate": {
+      "n_sampled": 30,
+      "note": "sampled estimate, NOT a full-corpus count \u2014 04_llm_classifier.py did not record per-row token counts, only timing",
+      "mean_prompt_tokens": 392.5,
+      "mean_response_tokens": 33.1,
+      "mean_total_tokens": 425.6
+    }
+  },
+  "tfidf_throughput_multiple_of_llm": 14843.8,
+  "hardware_context": "15.4 GB RAM, Intel Arc iGPU (2 GB VRAM), CPU-bound for llama3.2:3b (ADR-0001) \u2014 TF-IDF+LR runs entirely on CPU with no model weights to load, orders of magnitude cheaper per row than an LLM call"
+}

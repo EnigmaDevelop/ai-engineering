@@ -1,0 +1,630 @@
+{
+  "groundedness": {
+    "n_scored": 61,
+    "mean_score": 1.25,
+    "rows": [
+      {
+        "complaint_id": 18691499,
+        "rationale": "There is no explicit statement about ending the relationship or closing the account in this complaint narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not support any of the claims made, as there is no mention of ending the relationship or closing the account in the provided narrative."
+      },
+      {
+        "complaint_id": 21627404,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not relate to, nor support any claim made in the narrative text. There is no mention of a relationship, providers, or information about debt verification in the provided rationale."
+      },
+      {
+        "complaint_id": 21245978,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale introduces new information not supported by the narrative, specifically mentioning 'no explicit statement about ending the relationship or switching to another provider', which is not mentioned in the original narrative."
+      },
+      {
+        "complaint_id": 19041966,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in the narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale introduces information not supported by the narrative, specifically mentioning a 'relationship' that ends or switches, which are not mentioned in the given narrative."
+      },
+      {
+        "complaint_id": 20977361,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any specific information from the narrative, particularly regarding the account number being falsely reported or the violation of U.S Code 1618d. It also fails to address whether the relationship with MIDLAND CREDIT MANAGEM is ending or if they are switching providers."
+      },
+      {
+        "complaint_id": 19529014,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains a claim ('No explicit statement about ending the relationship or switching to another provider') that is not supported by any information in the narrative text."
+      },
+      {
+        "complaint_id": 18406669,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is made in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not support any of the claims made in the narrative, specifically regarding the false reporting on credit and violation of U.S Code 1618d."
+      },
+      {
+        "complaint_id": 19518906,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not align with any claim made in the narrative, specifically regarding no explicit statement about ending the relationship or switching to another provider."
+      },
+      {
+        "complaint_id": 19206196,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any specific actions taken by either party regarding ending the relationship or switching providers, which is a key claim made in the RATIONALE."
+      },
+      {
+        "complaint_id": 18892788,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any information from the narrative text, specifically regarding disputing an apartment collection, National Credit Systems, final move-out statement, itemized bill, inaccurate amount reported, or requesting full documentation and deletion of unvalidated debt. It also lacks any reference to a dispute with another provider ending."
+      },
+      {
+        "complaint_id": 20688396,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this complaint.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not align with any part of the narrative provided, as there are no statements regarding an end of a relationship or switching to another provider."
+      },
+      {
+        "complaint_id": 18583813,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any information from the narrative text, specifically regarding ending the relationship or switching to another provider."
+      },
+      {
+        "complaint_id": 19516131,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in the narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not address any of the claims made in the narrative, specifically regarding the FDCPA requirements and the need for validation of debt. It also introduces a new concept about ending the relationship or switching to another provider which is not present in the original narrative."
+      },
+      {
+        "complaint_id": 20776517,
+        "rationale": "REMOVE THESE ACCOUNTS: \n*CHARGE-OFF, **SOLD/CHARGE-OFF, CLOSED, ***COMPANY CLOSED ACCOUNTS \n\n*XX/XX/XXXX- CHARGE-OFF CLOSEDXX/XX/XXXX  updated XX/XX/XXXX, UTXX/XX/XXXX \n\n*MISSION LANE TAB BANK -  SOLD/CHARGE-OFFXX/XX/XXXXupdatedXX/XX/XXXX \nXX/XX/XXXX GAXX/XX/XXXX\n\n*UPGRADE INC - CHARGE-OFF CLOSED XX/XX/XXXX updatedXX/XX/XXXX\n2 XX/XX/XXXX, AZ XX/XX/XXXX \n\n**XX/XX/XXXX - SOLD/CHARGE-OFF CLOSED XX/XX/XXXX  updated XX/XX/XXXX COLLECTIONXX/XX/XXXX  updatedXX/XX/XXXX, MN XX/XX/XXXX \n\n**XX/XX/XXXX - SOLD/CHARGE-OFF CLOSED XX/XX/XXXX updatedXX/XX/XXXX, CA XX/XX/XXXX \n\n\n*XX/XX/XXXXSOLD/CHARGE-OFF CLOSED XX/XX/XXXX updated XX/XX/XXXX, CA XX/XX/XXXX \n\n*XX/XX/XXXX  updated XX/XX/XXXX MNXX/XX/XXXXn\n**MIDLAND XX/XX/XXXX  SOLD/CHARGE-OFF CLOSED  updatedXX/XX/XXXX, CA XX/XX/XXXX \n\n***XX/XX/XXXX updatedXX/XX/XXXX CA XX/XX/XXXX",
+        "groundedness_score": 5,
+        "judge_reasoning": "The RATIONALE strictly adheres to the ACCOUNTS listed in the NARRATIVE, including account types (CHARGE-OFF, SOLD/CHARGE-OFF, CLOSED) and specific dates provided in the narrative."
+      },
+      {
+        "complaint_id": 21648254,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains a claim that is not supported by the narrative text, which does not mention any request for validation related to ending a relationship or switching providers."
+      },
+      {
+        "complaint_id": 19338923,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not accurately reflect any claims made in the narrative, as there are no statements indicating a switch of creditor or termination of the original relationship."
+      },
+      {
+        "complaint_id": 20772321,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any part of the narrative, specifically the request for debt validation and the required documents. It introduces new information about ending a relationship or switching providers which is not grounded in the provided narrative."
+      },
+      {
+        "complaint_id": 21079797,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any action related to ending the relationship or switching providers, which was requested."
+      },
+      {
+        "complaint_id": 19134624,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not accurately reflect the narrative as it misinterprets the narrative's focus on requesting review and potential removal of inaccurate information, instead suggesting a need to end or switch relationships which is not mentioned in the narrative."
+      },
+      {
+        "complaint_id": 19526220,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is made in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not support any of the claims made, as there are no statements indicating a desire for the account to be ended or switching providers."
+      },
+      {
+        "complaint_id": 22977731,
+        "rationale": "I simply want my accounts closed immediately as I've been dealing with this for almost 30 days.",
+        "groundedness_score": 5,
+        "judge_reasoning": "The rationale directly supports a claim made in the narrative: 'I simply want my accounts closed immediately as I've been dealing with this for almost 30 days.' The narrator expresses frustration about their account issues and desire to have them resolved quickly, which aligns with the statement in the rationale."
+      },
+      {
+        "complaint_id": 19634949,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is made in the narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale introduces information not present in the narrative, specifically mentioning 'ending the relationship' which is not mentioned in the given text."
+      },
+      {
+        "complaint_id": 21508067,
+        "rationale": "There is no explicit statement about ending the relationship or leaving Chase in the provided narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The narrative does not explicitly state that the relationship ends with Chase, only mentioning a closed account and frozen funds."
+      },
+      {
+        "complaint_id": 21285607,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in the narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale introduces new information not supported by the narrative, specifically mentioning 'ending the relationship' which is not mentioned in the given text."
+      },
+      {
+        "complaint_id": 20086239,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this complaint.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not align with the narrative provided, as there are no statements indicating a need for customer service review due to improper handling of the case."
+      },
+      {
+        "complaint_id": 20081047,
+        "rationale": "The consumer states 'They have lost a loyal customer' indicating a definite intention to end their relationship with Cashapps.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale includes an inference ('indicating a definite intention to end their relationship with CashApps') that goes beyond what is directly stated in the narrative, which only mentions 'now that one has occurred requiring their intervention I am in utter disbelief in how little theyve done to resolve it'. There's no explicit mention of ending the relationship or any specific intent to do so."
+      },
+      {
+        "complaint_id": 18715638,
+        "rationale": "The consumer was explicitly told that their account would be closed and received a written notification with an estimated timeline for releasing their funds.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains claims that are not supported by the narrative text. The narrative states that no written notice was provided, nor were the remaining funds sent in a check within the promised timeframe."
+      },
+      {
+        "complaint_id": 21058387,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not support any claims made in the RATIONALE section, as there are no statements about ending the relationship or switching to another provider in the provided narrative."
+      },
+      {
+        "complaint_id": 22963918,
+        "rationale": "The consumer explicitly states 'Do Not Bank With This Institution!' which indicates their intention to end their relationship with US Bank.",
+        "groundedness_score": 5,
+        "judge_reasoning": "The rationale directly quotes the explicit statement 'Do Not Bank With This Institution!,' which is grounded in the narrative text."
+      },
+      {
+        "complaint_id": 21103767,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not address any claims made in the narrative, specifically regarding the removal of an owed balance due to bankruptcy. The rationale is completely unrelated to the content provided in the narrative."
+      },
+      {
+        "complaint_id": 21314114,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not align with the provided narrative, which focuses on a dispute over duplicate charges and incorrect categorization by the merchant's bank. There is no mention of ending a relationship or switching to another provider in the narrative."
+      },
+      {
+        "complaint_id": 19983760,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains claims that are not supported by any information in the narrative text, specifically regarding 'no explicit statement about ending the relationship or switching to another provider'."
+      },
+      {
+        "complaint_id": 18691070,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not match any claims made in the narrative text, specifically regarding transactions being authorized incorrectly and fraudulent. There is no mention of ending a relationship or switching to another provider in the given narrative."
+      },
+      {
+        "complaint_id": 20329035,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains a claim ('There is no explicit statement about ending the relationship or switching to another provider') that is not supported by any information in the narrative text."
+      },
+      {
+        "complaint_id": 23201847,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not support any of the claims made, as there is no mention of ending the relationship or switching providers in the provided narrative text."
+      },
+      {
+        "complaint_id": 22197370,
+        "rationale": "The customer explicitly states 'They are keeping my money and not giving me a way to get it. It borders on theft.' indicating their intention to end the relationship with USAA.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale introduces new information ('They are keeping my money and not giving me a way to get it') that is not supported by or directly inferred from the narrative text, which only states that the customer feels their complaint was not resolved and they do not see any resolution coming."
+      },
+      {
+        "complaint_id": 20988478,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is made in this complaint narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any claim for ending the relationship or switching to another provider, which was not explicitly stated in the narrative."
+      },
+      {
+        "complaint_id": 18813006,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale makes a claim that there is 'no explicit statement about ending the relationship or switching to another provider' without any support from the provided narrative text."
+      },
+      {
+        "complaint_id": 22226340,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not accurately reflect any part of the narrative provided, as there is no mention of an agent's fault in locking the account or ending a relationship with Ally Bank."
+      },
+      {
+        "complaint_id": 20090495,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not address any claims made in the narrative, specifically regarding over-billing, over-charging of interest and fees, and the issue of late payments. It only mentions a lack of explicit statement about ending the relationship or switching to another provider."
+      },
+      {
+        "complaint_id": 19061613,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this narrative, only a formal dispute and request for resolution.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not accurately reflect any part of the narrative provided, as there is no mention or implication of ending the relationship or switching to another provider."
+      },
+      {
+        "complaint_id": 18449782,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale introduces new information not supported by the given narrative, specifically mentioning 'ending the relationship' which is not present in the provided text."
+      },
+      {
+        "complaint_id": 21558988,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains claims that are not supported by any information in the narrative text, specifically mentioning 'no explicit statement about ending the relationship or switching to another provider', which is not mentioned in the given narrative."
+      },
+      {
+        "complaint_id": 21023999,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not support any of the claims made in the RATIONALE, as there are no statements about ending the relationship or switching to another provider in the provided narrative text."
+      },
+      {
+        "complaint_id": 18814376,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider, only a request for Wells Fargo to correct an error and provide documentation.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not accurately reflect any claims made in the narrative text. The narrative discusses multiple issues related to payment corrections, billing statements, and a disputed reversal, but the rationale focuses on a lack of explicit statement about ending the relationship or switching providers, which is not supported by the content provided."
+      },
+      {
+        "complaint_id": 20332900,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale mentions 'ending the relationship' which is not supported by any information in the narrative text."
+      },
+      {
+        "complaint_id": 18853791,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in the narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not align with any part of the provided narrative, as there is no mention of ending a relationship or switching providers."
+      },
+      {
+        "complaint_id": 21905696,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains a claim ('No explicit statement about ending the relationship or switching to another provider') that is not supported by any information in the narrative text."
+      },
+      {
+        "complaint_id": 21439116,
+        "rationale": "The consumer explicitly states they want an 'immediate lift on my account to be unrestricted' indicating their intention to end their relationship with the company.",
+        "groundedness_score": 4,
+        "judge_reasoning": "The rationale scores a 4 out of 5 because it accurately reflects a part of the narrative (the consumer's desire for an account lift), but introduces new information ('contact you guys or get a lawyer') that is not directly supported by the given text. The request for help to 'lift their account' and end the relationship aligns with the narrative."
+      },
+      {
+        "complaint_id": 18871256,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in the narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains a claim not supported by the narrative, specifically mentioning 'ending the relationship' which is not mentioned or implied in the given narrative."
+      },
+      {
+        "complaint_id": 19845975,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in the narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains claims that are not supported by the provided narrative, specifically regarding no explicit statement about ending the relationship or switching to another provider."
+      },
+      {
+        "complaint_id": 18409613,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is made in this narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not address any claim made in the narrative, specifically regarding the lack of information about ending a relationship or switching providers. The rationale focuses on general claims about interest rates and false advertising without grounding it to specific details from the narrative."
+      },
+      {
+        "complaint_id": 21905651,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider is present in the narrative.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains a claim that 'no explicit statement about ending the relationship or switching to another provider is present' which is not supported by any information provided in the narrative text."
+      },
+      {
+        "complaint_id": 19778644,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale introduces a claim ($1900.00 compounds to $12000.00 in XXXX years) that is not supported by the narrative text, which does not mention any specific amount compounding over time."
+      },
+      {
+        "complaint_id": 21720602,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale 'No explicit statement about ending the relationship or switching to another provider' is not grounded in the narrative provided, as there are no mentions of such actions in the given text."
+      },
+      {
+        "complaint_id": 20955559,
+        "rationale": "The consumer states 'The card is now closed' indicating they have ended their relationship with SoFi.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale includes a claim ('The card is now closed') that is not directly supported by the narrative text, which only mentions 'the card is now closed' as part of the dispute resolution process without indicating whether it was voluntarily ended or if SoFi had closed it due to fraud."
+      },
+      {
+        "complaint_id": 19671314,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale introduces new information ('ending the relationship' and 'switching to another provider') that is not grounded in the provided narrative text."
+      },
+      {
+        "complaint_id": 20382928,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any part of the narrative text, specifically stating there is no information provided about ending a relationship or switching providers."
+      },
+      {
+        "complaint_id": 18589305,
+        "rationale": "There is no explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains a claim ('There is no explicit statement about ending the relationship or switching to another provider') that is not supported by any information in the narrative text."
+      },
+      {
+        "complaint_id": 21490600,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale contains claims that are not supported by any information in the narrative, specifically mentioning 'ending the relationship' and 'switching to another provider', which are not mentioned or implied in the given narrative."
+      },
+      {
+        "complaint_id": 21888756,
+        "rationale": "No explicit statement about ending the relationship or switching to another provider.",
+        "groundedness_score": 1,
+        "judge_reasoning": "The rationale does not mention any part of the narrative, specifically regarding the deposit issues and claims made by the credit card company."
+      }
+    ]
+  },
+  "position_bias": {
+    "n_narratives": 8,
+    "n_consistent_across_swap": 7,
+    "consistency_rate": 0.875,
+    "rows": [
+      {
+        "complaint_id": 18903194,
+        "judge": "llama3.2:3b",
+        "forward_preferred": "A",
+        "forward_winner_model": "llama",
+        "swapped_preferred": "B",
+        "swapped_winner_model": "llama",
+        "consistent": true
+      },
+      {
+        "complaint_id": 18691499,
+        "judge": "llama3.2:3b",
+        "forward_preferred": "A",
+        "forward_winner_model": "llama",
+        "swapped_preferred": "B",
+        "swapped_winner_model": "llama",
+        "consistent": true
+      },
+      {
+        "complaint_id": 18692687,
+        "judge": "llama3.2:3b",
+        "forward_preferred": "B",
+        "forward_winner_model": "qwen",
+        "swapped_preferred": "A",
+        "swapped_winner_model": "qwen",
+        "consistent": true
+      },
+      {
+        "complaint_id": 19044804,
+        "judge": "llama3.2:3b",
+        "forward_preferred": "B",
+        "forward_winner_model": "qwen",
+        "swapped_preferred": "A",
+        "swapped_winner_model": "qwen",
+        "consistent": true
+      },
+      {
+        "complaint_id": 18424182,
+        "judge": "llama3.2:3b",
+        "forward_preferred": "A",
+        "forward_winner_model": "llama",
+        "swapped_preferred": "B",
+        "swapped_winner_model": "llama",
+        "consistent": true
+      },
+      {
+        "complaint_id": 19066517,
+        "judge": "llama3.2:3b",
+        "forward_preferred": "A",
+        "forward_winner_model": "llama",
+        "swapped_preferred": "B",
+        "swapped_winner_model": "llama",
+        "consistent": true
+      },
+      {
+        "complaint_id": 20183708,
+        "judge": "llama3.2:3b",
+        "forward_preferred": "B",
+        "forward_winner_model": "qwen",
+        "swapped_preferred": "B",
+        "swapped_winner_model": "llama",
+        "consistent": false
+      },
+      {
+        "complaint_id": 21627404,
+        "judge": "llama3.2:3b",
+        "forward_preferred": "B",
+        "forward_winner_model": "qwen",
+        "swapped_preferred": "A",
+        "swapped_winner_model": "qwen",
+        "consistent": true
+      }
+    ]
+  },
+  "self_preference": {
+    "n_judgments": 16,
+    "n_favored_self_forward": 11,
+    "n_favored_self_swapped": 5,
+    "rows": [
+      {
+        "complaint_id": 18903194,
+        "judge": "llama3.2:3b",
+        "forward_winner_model": "llama",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": true
+      },
+      {
+        "complaint_id": 18691499,
+        "judge": "llama3.2:3b",
+        "forward_winner_model": "llama",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": true
+      },
+      {
+        "complaint_id": 18692687,
+        "judge": "llama3.2:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "qwen",
+        "judge_favored_self_forward": false,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 19044804,
+        "judge": "llama3.2:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "qwen",
+        "judge_favored_self_forward": false,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 18424182,
+        "judge": "llama3.2:3b",
+        "forward_winner_model": "llama",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": true
+      },
+      {
+        "complaint_id": 19066517,
+        "judge": "llama3.2:3b",
+        "forward_winner_model": "llama",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": true
+      },
+      {
+        "complaint_id": 20183708,
+        "judge": "llama3.2:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": false,
+        "judge_favored_self_swapped": true
+      },
+      {
+        "complaint_id": 21627404,
+        "judge": "llama3.2:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "qwen",
+        "judge_favored_self_forward": false,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 18903194,
+        "judge": "qwen2.5:3b",
+        "forward_winner_model": "llama",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": false,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 18691499,
+        "judge": "qwen2.5:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 18692687,
+        "judge": "qwen2.5:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 19044804,
+        "judge": "qwen2.5:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 18424182,
+        "judge": "qwen2.5:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 19066517,
+        "judge": "qwen2.5:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 20183708,
+        "judge": "qwen2.5:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": false
+      },
+      {
+        "complaint_id": 21627404,
+        "judge": "qwen2.5:3b",
+        "forward_winner_model": "qwen",
+        "swapped_winner_model": "llama",
+        "judge_favored_self_forward": true,
+        "judge_favored_self_swapped": false
+      }
+    ]
+  },
+  "verbosity_bias": {
+    "n_padded": 6,
+    "n_score_increased_from_padding": 0,
+    "rows": [
+      {
+        "complaint_id": 18691499,
+        "original_score": 1,
+        "padded_score": 1,
+        "score_increased": false
+      },
+      {
+        "complaint_id": 21627404,
+        "original_score": 1,
+        "padded_score": 1,
+        "score_increased": false
+      },
+      {
+        "complaint_id": 21245978,
+        "original_score": 1,
+        "padded_score": 1,
+        "score_increased": false
+      },
+      {
+        "complaint_id": 19041966,
+        "original_score": 1,
+        "padded_score": 1,
+        "score_increased": false
+      },
+      {
+        "complaint_id": 20977361,
+        "original_score": 1,
+        "padded_score": 1,
+        "score_increased": false
+      },
+      {
+        "complaint_id": 19529014,
+        "original_score": 1,
+        "padded_score": 1,
+        "score_increased": false
+      }
+    ]
+  }
+}
