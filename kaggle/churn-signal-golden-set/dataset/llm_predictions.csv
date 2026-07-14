@@ -1,0 +1,1023 @@
+complaint_id,product,fold,true_label,predicted_label,parse_failed,rationale,eval_duration_ms
+18406669,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2158.1
+18409613,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2013.6
+18409829,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3760.4
+18411887,Credit card,1,0,1,False,"The consumer states 'she decided in sept to start shoveling her credit cards onto the accounts including her divorce lawyer' and 'now they are still investigating and its been since XX/XX/2025 XXXX', indicating a definite intention to leave USAA due to the issue described.",5495.9
+18413773,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1696.9
+18416910,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1759.7
+18418828,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2545.6
+18424182,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,1869.1
+18424711,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2476.0
+18427195,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2775.2
+18431177,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2881.8
+18432549,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3097.3
+18433752,Credit card,1,0,1,False,"The consumer explicitly states that Citibank 'closed all of my accounts' and 'terminated the promotional APR early', indicating a definite intention to end their relationship with the company.",3804.3
+18435371,Credit card,3,1,1,False,"The customer explicitly states they 'BLOCKED ALL MY CITI ACCOUNTS' after reporting the fraud, indicating a clear intention to end their relationship with Citi Bank.",3654.5
+18437269,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2723.4
+18437327,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1730.4
+18442956,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2216.7
+18447287,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2685.6
+18447502,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2043.8
+18447699,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2537.2
+18449782,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2420.4
+18449789,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2394.0
+18449911,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1771.0
+18451450,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2669.0
+18460035,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2129.6
+18464301,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4272.5
+18465406,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3925.3
+18465788,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2593.7
+18467923,Debt collection,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,4579.8
+18489715,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1822.0
+18495486,Checking or savings account,3,0,1,False,The consumer explicitly states 'they closed all my accounts' as the reason for their account closure.,2551.4
+18495892,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2131.8
+18497206,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2380.1
+18498120,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2952.4
+18500581,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1623.8
+18503734,Debt collection,3,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",3206.8
+18507230,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2930.6
+18508128,Credit card,4,0,1,False,"The company cancelled the only reinstated account following a subsequent review, indicating a definite intention to end the relationship with the consumer.",2800.1
+18509331,Credit card,3,0,0,False,No explicit statement about ending the relationship or leaving Citi Bank.,2201.2
+18510674,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2794.4
+18511029,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2216.8
+18511445,Credit card,2,1,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2600.3
+18511901,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,4386.2
+18513395,Credit card,4,0,0,False,No explicit statement about ending the relationship or leaving the company is present in the narrative.,3858.8
+18521034,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2818.8
+18521652,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3234.9
+18527366,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2862.9
+18530685,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1693.6
+18535682,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1819.2
+18536079,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2108.7
+18539495,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3229.9
+18541416,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4492.9
+18543475,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3519.5
+18546531,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1770.5
+18564242,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in this complaint narrative.,2906.5
+18568021,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1583.3
+18568126,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1577.0
+18568131,Checking or savings account,0,0,1,False,I plan to call again today as they denied in middle of the night yet again.,2015.1
+18572268,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1807.8
+18576272,Credit card,2,0,1,False,The consumer states 'I should charge you interest on my money you were so quick to take it and then you can give it back whenever you want.' This explicitly expresses a definite intention to leave the company due to the issue described.,4512.4
+18576617,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,3290.0
+18577711,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2849.0
+18579186,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2417.7
+18579828,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,4710.8
+18581578,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2533.1
+18581801,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3095.7
+18582448,Checking or savings account,0,0,1,False,"The customer explicitly states 'I have received nothing but the run around on this issue From Chase bank' and also mentions 'I even said to XXXX that the Charge was approved and that I needed to go back and speak to XXXX', indicating a clear intention to leave due to the issue described.",7920.4
+18583813,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2034.3
+18584573,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1804.3
+18589305,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3034.3
+18590740,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,4451.0
+18596471,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2346.2
+18600730,Checking or savings account,4,0,1,False,The consumer states 'How can you send me a check because you knew you weren't and still not let me open a bank account thats crazy' which explicitly expresses their intention to end the relationship with USAA.,4458.4
+18601854,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3775.8
+18602371,Checking or savings account,4,0,1,False,The consumer explicitly states they were closed by XXXX and are unable to get information about their account.,2505.1
+18608332,Credit card,2,0,1,False,"The consumer states 'They will not give my back my approximately {$200000.00} miles back', indicating a definite intention to leave due to the company's refusal to return their miles.",4143.4
+18610582,Checking or savings account,2,0,1,False,The consumer states 'I believe this incident is navy federals own fault' indicating a definite intention to leave Navy Federal Credit Union due to the issue described.,3936.1
+18611825,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2474.5
+18633628,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2466.1
+18634852,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2095.2
+18636433,Checking or savings account,3,0,1,False,They ended up withdrawing $1500.00 in XXXX gift cards which also showed the transaction happening in California.,3182.5
+18639342,Credit card,3,0,1,False,"The customer explicitly states that Citibank has 'closed' multiple credit card accounts (e.g., 'Citi XXXX Preferred (ending XXXX)') and expresses a desire for the accounts to be reopened or reconsidered.",4720.6
+18649082,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2820.9
+18649600,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1875.2
+18649935,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2389.0
+18651322,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3858.3
+18652696,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2954.9
+18656008,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2728.8
+18657816,Checking or savings account,1,0,1,False,Im planning to sue,1606.0
+18660106,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2744.0
+18660723,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3073.5
+18661628,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2490.8
+18662411,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2251.0
+18663499,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2992.4
+18665431,Checking or savings account,2,0,1,False,The consumer explicitly states they have 'no food for myself or my dogs ALL BECAUSE OF PNC!' which indicates a definite intention to leave the company due to the issue described.,4738.8
+18667606,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2190.8
+18669026,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2706.0
+18669134,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2714.0
+18680411,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1799.7
+18681560,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2815.1
+18689037,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1781.7
+18690030,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2160.0
+18691070,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2238.4
+18691499,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or leaving Credence Resource Management in this complaint narrative.,2266.8
+18691709,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3484.7
+18692687,Debt collection,3,0,1,False,The consumer explicitly states they will pay $50.00 every XXXX weeks until the loan is paid off and mentions wage garnishment and legal fees as a consequence of not paying.,3024.2
+18698423,Credit card,3,0,0,False,There is no explicit statement about ending the relationship in this narrative.,1793.5
+18700134,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,4100.7
+18700587,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1795.8
+18700623,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2337.4
+18702857,Credit card,1,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for resolution and a mention of financial harm caused by Chase's failure to honor the promotion.",4159.4
+18706952,Checking or savings account,0,0,1,False,The consumer explicitly states they are filing a formal complaint against Robinhood Financial LLC for wrongful withholding of their assets after account closure and formally closed their account.,6834.5
+18706991,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2374.0
+18715638,Checking or savings account,2,0,1,False,The consumer was explicitly told that their account would be closed and received a written notification with an estimated timeline for releasing their funds.,3535.0
+18719501,Checking or savings account,1,1,1,False,I intend to formally request account closure after the funds are transferred.,2341.8
+18725791,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2425.2
+18737440,Checking or savings account,1,0,1,False,"The consumer states 'I have also filed complaint with IC3 FBI INTERNET CRIME DIVISION' and 'Chime refuses to refund my account in the amount of {$1800.00}', indicating a definite intention to leave Chime due to the issue described.",4854.8
+18812280,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1680.8
+18813006,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3184.7
+18813582,Checking or savings account,4,0,0,False,"There is no explicit statement about ending the relationship (e.g., 'I am closing my account' or 'I will be switching to another provider') in this narrative; instead, the consumer is requesting resolution and intervention from a regulatory agency.",5575.9
+18814376,Credit card,1,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for Wells Fargo to correct an error and provide documentation.",4647.2
+18817465,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2435.0
+18818379,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2457.3
+18822379,Checking or savings account,2,0,1,False,The consumer explicitly states 'Action need to be taken against this predatory institution' indicating their intention to end their relationship with Ally Bank.,3604.1
+18824852,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2763.7
+18836100,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this complaint.,3598.5
+18850156,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4838.0
+18853791,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2691.5
+18855933,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1932.5
+18860767,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3533.8
+18861082,Credit card,2,1,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2816.3
+18861391,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4239.8
+18864141,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3106.1
+18866396,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2673.5
+18866504,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2479.2
+18868078,Debt collection,3,0,0,False,No explicit statement about ending the relationship or leaving the company is present in the narrative.,2934.9
+18868897,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1632.3
+18871256,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1836.1
+18874667,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3356.1
+18875038,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1884.7
+18876416,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2620.4
+18877548,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2259.8
+18879889,Credit card,3,0,1,False,"The consumer explicitly states 'Despite this verbal confirmation from a supervisor, the account remains closed' which indicates their intention to end the relationship with Barclays.",4143.7
+18880913,Checking or savings account,4,0,1,False,The consumer explicitly states that their account will be closed as requested by the fraud department without any other explanation.,3174.1
+18881053,Checking or savings account,1,0,1,False,"The consumer states 'Long story short, Chase Bank closed my account with my own money in it and everything.' This explicitly indicates that the consumer is ending their relationship with Lightstream.",10052.1
+18882848,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2765.5
+18884235,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,5102.4
+18885864,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2618.3
+18886495,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or leaving the company is made in this narrative.,3401.0
+18889343,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2830.4
+18892788,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1755.6
+18902434,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1813.1
+18902962,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2651.6
+18903194,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1870.5
+18903613,Checking or savings account,2,1,1,False,I stated 'so I would like all my money back and the other account closed immediately.',2433.4
+18905592,Debt collection,0,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a complaint about Experian's failure to respond within 30 days.",7436.4
+18905954,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3417.0
+18911659,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2159.6
+18913695,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3803.0
+18920483,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2711.4
+18924775,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2763.0
+18925153,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this complaint.,2743.2
+18929766,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,4101.1
+18931110,Credit card,0,0,1,False,"The merchant wants to refund me but is waiting on Citibank, indicating a definite intention to leave due to the issue described.",3349.6
+18931685,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2375.2
+18936646,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3070.2
+18938756,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2594.7
+18939512,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1816.6
+18940678,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2884.6
+18947336,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2604.5
+18947860,Checking or savings account,1,1,1,False,The consumer explicitly states 'I want to close the XXXXm account'.,2538.8
+18953938,Checking or savings account,2,0,1,False,The customer explicitly states 'I was frozen out and could not make any more attempts' which indicates their intention to end their relationship with Citibank.,3573.3
+18954166,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the complaint.,2718.7
+18959438,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3452.2
+18959747,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2539.6
+18960217,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2221.2
+18962395,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in this narrative.,2224.4
+18962465,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2811.7
+18962771,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2109.2
+18973252,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2852.8
+18974054,Credit card,1,0,1,False,I am now stuck in a loop where the bank's own security failures are being used as a reason to deny me service.,3317.1
+18977036,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1964.7
+18977386,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2727.8
+18979926,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or closing the account.,2255.4
+18981195,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3237.5
+18981961,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is found in the narrative.,2639.5
+18983569,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3219.5
+18984596,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2723.3
+18985802,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3541.4
+18987607,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2728.5
+18988035,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1650.7
+18988752,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3601.4
+18991618,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is found in this narrative.,3600.0
+18992623,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1757.8
+18993810,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3262.3
+18993950,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2936.5
+18995534,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2561.4
+18998202,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4110.9
+19007384,Credit card,2,0,1,False,"The customer explicitly states that they are being told nothing can be done and their points are gone permanently, indicating a definite intention to leave due to the issue described.",3713.1
+19007652,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2153.0
+19010988,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3437.2
+19012036,Credit card,4,0,1,False,"The consumer explicitly states they are 'bewildered' as to how the company issued a fraudulent credit card in their name and SSN without consent or knowledge, indicating a definite intention to leave due to the issue described.",4741.7
+19015740,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2774.2
+19016465,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2526.6
+19016487,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2685.4
+19016791,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2838.0
+19019826,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2753.7
+19021017,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1992.9
+19025018,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2962.8
+19025282,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2519.0
+19026429,Credit card,4,0,1,False,"The consumer explicitly states they were 'abruptly shutdown' without warning, indicating an intention to end their relationship with Capital One.",2926.7
+19028684,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1825.2
+19038770,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2217.0
+19038813,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2266.9
+19039722,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3384.7
+19041966,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2126.0
+19044804,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2101.3
+19047593,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2652.8
+19050080,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or leaving the company in this narrative.,2287.1
+19050952,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2443.0
+19053846,Checking or savings account,4,0,1,False,The consumer states 'They claim they have the right to terminate business at any time- which I am in agreement with - but they do not have any right to do with my money what they wish.',4286.6
+19054228,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3049.1
+19056185,Checking or savings account,0,0,1,False,The consumer explicitly states they are requesting that Chase 'immediately remit the full balance owed' and is seeking a written explanation for not receiving payment when the account was closed.,4235.6
+19056619,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,4622.4
+19058174,Credit card,0,0,0,False,The narrative does not explicitly state that the consumer is ending their relationship with Synchrony Bank or switching to another provider.,3373.8
+19060293,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4253.3
+19061613,Credit card,4,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider in this narrative, only a formal dispute and request for resolution.",3721.8
+19062768,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4550.3
+19066517,Debt collection,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1762.4
+19066868,Debt collection,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",5206.8
+19067736,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2383.7
+19072949,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2550.6
+19074262,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2807.7
+19077555,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2527.1
+19079955,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2524.4
+19079995,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3160.3
+19080448,Debt collection,0,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only complaints about continuous calls and threats from law firms.",3248.7
+19082675,Checking or savings account,0,1,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2463.6
+19083393,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1628.8
+19089586,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3572.8
+19089824,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is found in the narrative.,4363.3
+19095749,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2651.7
+19102736,Credit card,1,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for transparency and communication from PNC Bank.",2723.6
+19102984,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2539.3
+19103241,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2556.1
+19103535,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2125.6
+19112923,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2914.6
+19119737,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,5423.4
+19119897,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,1961.5
+19120039,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1691.2
+19123444,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2409.3
+19123912,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2758.4
+19124515,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2671.9
+19126144,Debt collection,2,0,0,False,No explicit statement about ending the relationship or leaving the company is present in the narrative.,4726.8
+19126964,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2490.2
+19127475,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,1978.4
+19128166,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2151.6
+19130670,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2850.4
+19134624,Debt collection,3,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",5401.5
+19141087,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the complaint narrative.,2722.1
+19150151,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3578.7
+19173019,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2466.6
+19174107,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2514.7
+19176769,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3204.2
+19179003,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1899.8
+19182274,Checking or savings account,3,0,1,False,"The consumer explicitly states 'I am closing my account' is not present, but the phrase 'I respectfully request that PayPal be required to release my funds' implies a direct intention to end their relationship with the company.",5184.8
+19201252,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2718.7
+19203699,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2511.8
+19204891,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2973.8
+19205756,Credit card,0,1,1,False,I will never use Chase again because you are not a good company to deal with...,2065.6
+19206196,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3188.3
+19211103,Checking or savings account,3,0,1,False,"The consumer explicitly states they want Cash App to 'file theirs cash apps on their side' like the bank did, implying a desire to close the account due to unresolved issues.",4232.4
+19215219,Checking or savings account,2,0,1,False,The customer explicitly states 'I don't understand my debt card is for if I don't want to write a check at a store ; I should still have access to my checking account to either XXXX myself money or XXXX money to another family member.' This statement indicates the customer intends to leave Citibank due to the issue with their debit card.,7104.4
+19218321,Checking or savings account,1,1,1,False,We definitely intend on moving our accounts to a different bank once this is resolved.,2654.9
+19218436,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2501.5
+19221284,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2406.8
+19234276,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,4042.2
+19240869,Credit card,1,0,1,False,"The consumer explicitly states they are requesting an immediate investigation to 'permanently close' the fraudulent account and correct their credit report, indicating a clear intention to end their relationship with Capital One.",3788.5
+19243984,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4201.2
+19244725,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2744.2
+19245060,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2105.5
+19245826,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3172.2
+19246300,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2548.6
+19263645,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3030.2
+19266433,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2673.7
+19266885,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2626.2
+19274159,Credit card,2,0,1,False,The consumer explicitly states they want their cards reinstated 'instead of closed' by BofA after being denied due to a potential link to another account.,3316.9
+19275408,Checking or savings account,4,0,1,False,"They still keep telling me that there's nothing else they can do about the issue and telling me to have a good day, while they pocket the money they should be refunding me since I had documented proof that it was fraud.",5155.4
+19279454,Debt collection,4,0,1,False,"The consumer explicitly states they want this resolved and removed from their credit profile, indicating an intention to end their relationship with US Bank.",3158.4
+19283372,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1687.0
+19284298,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3280.3
+19337261,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1727.9
+19338923,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2481.9
+19339779,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2209.3
+19339829,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1664.5
+19340782,Credit card,4,0,1,False,"The consumer explicitly states they paid for merchandise that was never received and claims Citi has failed to protect them under Regulation Z, indicating a definite intention to leave due to the issue described.",4118.0
+19341654,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2891.8
+19341701,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2106.5
+19342128,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2208.2
+19342272,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2555.2
+19346171,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1987.2
+19347366,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2558.0
+19349678,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3189.8
+19352413,Credit card,1,0,1,False,I do not want to incur fees and lose credit score because of this.,2803.8
+19354449,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2246.4
+19355071,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,5864.9
+19355806,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2674.8
+19357883,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2566.5
+19365374,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3237.2
+19376465,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2530.8
+19376689,Credit card,3,1,1,False,I canceled all of my Capital One accounts and paid all outstanding balances in full.,3174.8
+19421179,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2546.4
+19423621,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2519.0
+19444279,Credit card,0,1,0,False,"The narrative does not explicitly state that the consumer is ending their relationship with TomoCredit, but rather describes an attempt to close the account and a subsequent communication from the company.",4245.3
+19448697,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2238.3
+19452009,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2939.4
+19454293,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2559.5
+19456007,Credit card,4,0,1,False,"The consumer explicitly states they are ending their relationship with American Express by stating 'they suddenly closed all of my accounts' and 'they are not answering any of my calls', indicating a clear intention to leave the company.",4199.3
+19458085,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in this narrative.,2218.8
+19460106,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,5536.3
+19460751,Credit card,4,1,1,False,I AM FRUSTRATED NOW AND JUST WANT THE ACCOUNT CLOSED.,2441.2
+19462582,Credit card,0,1,1,False,I will never do business with Wells Fargo again.,1876.4
+19512502,Checking or savings account,4,0,1,False,The customer explicitly states they will not get their money back on any of those transactions because XXXX 'acted like I should just forget about it and go on.',4317.4
+19515885,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4769.7
+19516131,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2495.3
+19518499,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2639.8
+19518906,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2440.7
+19519551,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2513.5
+19520328,Debt collection,4,0,0,False,No explicit statement about ending the relationship or leaving the company is present in the narrative.,2716.0
+19526220,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2883.8
+19527338,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1622.1
+19527396,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2706.0
+19528504,Credit card,2,1,1,False,"The consumer explicitly states they 'closed' their card XX/XX/year> and expresses frustration with the company's handling of the issue, indicating a definite intention to end their relationship.",4196.8
+19529014,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1767.7
+19530064,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1937.6
+19535021,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,4037.3
+19539352,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1846.2
+19543290,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2723.7
+19545958,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2848.6
+19548213,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint update.,2821.1
+19554280,Debt collection,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,5709.2
+19558844,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2518.8
+19559455,Credit card,0,1,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2923.1
+19561886,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or closing the account in this narrative.,2106.9
+19565454,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3308.0
+19569372,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2207.7
+19573241,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2061.2
+19575301,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2760.7
+19577091,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2030.8
+19588114,Credit card,4,0,0,False,No explicit statement about ending the relationship or leaving the company is present in the narrative.,2189.3
+19593454,Debt collection,0,0,0,False,"There is no explicit statement about ending the relationship or leaving the company in this narrative, only a request to cease communication and a threat to file complaints with regulatory agencies.",4273.0
+19616215,Credit card,3,0,1,False,"I am attempting to reassert the dispute and as the screenshots will show, the chat wont even allow me to do that.",3119.1
+19620652,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3766.4
+19622632,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2260.2
+19622740,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2371.4
+19623301,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2916.1
+19628381,Credit card,2,0,1,False,"The customer states 'If this matter is not resolved in my favor immediately, I am prepared to pursue formal legal action against Goldman Sachs Bank USA for violations of the Fair Credit Billing Act ( FCBA ) and will seek all available damages and legal fees.'",7123.4
+19633459,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1581.6
+19634575,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3644.3
+19634949,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in the narrative.,2340.7
+19635105,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,3159.7
+19635167,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2563.5
+19636604,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3898.5
+19638222,Credit card,1,0,0,False,No explicit statement about ending the relationship is made in the narrative.,2607.3
+19638442,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,4711.8
+19642361,Credit card,4,1,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2184.7
+19654707,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3844.8
+19657968,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2414.0
+19660108,Debt collection,3,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only complaints about the company's conduct and potential violations of consumer protection laws.",7669.1
+19663087,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2625.3
+19669389,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or leaving Wells Fargo in this complaint.,2519.6
+19671314,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2079.8
+19673131,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2145.0
+19673450,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3291.2
+19676699,Checking or savings account,1,1,1,False,"The consumer states 'I would return to my original provider' after switching accounts, indicating a definite intention to end their relationship with TSYS.",3020.6
+19679232,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1637.6
+19679778,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2582.5
+19680625,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3282.8
+19681074,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3256.2
+19681630,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2661.8
+19682093,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,5012.9
+19682271,Checking or savings account,2,0,1,False,"The consumer explicitly states 'I made it clear that doing so would result in my money being sent directly to the person who had gained unauthorized access,' indicating a definite intention to leave Chime due to the issue described.",4178.8
+19682298,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1601.2
+19684173,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2666.8
+19692066,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or leaving Upgrade in the narrative.,2458.3
+19695018,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,5654.1
+19698188,Checking or savings account,4,0,1,False,The consumer explicitly states they are filing a complaint about their account being permanently closed and having their funds held without transparency or resolution.,2654.2
+19698746,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3023.7
+19718098,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2028.8
+19727240,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship with the company in this complaint narrative.,2872.9
+19742988,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1742.0
+19743945,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2710.9
+19745382,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2304.8
+19750205,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2544.3
+19750223,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1724.4
+19752870,Checking or savings account,4,0,1,False,The consumer states 'Wells Fargo has closed my claims # XXXX and # XXXX due to them determining no errors and not being able to obtain the surveillance footage.' This explicitly indicates that Wells Fargo is ending their relationship with the consumer by closing their claims.,5405.3
+19776612,Credit card,4,0,1,False,I am going through XXXX treatment and can not have more XXXX.,2091.7
+19778644,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1920.6
+19779696,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2282.8
+19781492,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2385.0
+19783234,Credit card,2,0,1,False,The consumer states 'They closed one of my accounts that I was locked out of' indicating a definite intention to end their relationship with Syncroney.,2921.6
+19785330,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,4231.2
+19785947,Checking or savings account,0,0,1,False,The consumer states 'A teller gave my money to someone impersonating me and Chase is refusing to refund me or investigate further.' This explicitly indicates their intention to end their relationship with the company.,4583.9
+19786716,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3037.7
+19787321,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,5405.3
+19789712,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2805.4
+19790571,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3126.2
+19790820,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2254.3
+19796147,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2702.6
+19845975,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2808.9
+19864551,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2853.4
+19876945,Checking or savings account,3,0,1,False,"The consumer explicitly states they regret starting an account at Capital One and express their intention to end their relationship with the company, stating 'I so regret greatly even starting an account at this financial institution I thought capital one was trustworthy, they are not.'",4737.1
+19879746,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3736.0
+19879777,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1846.8
+19881306,Credit card,1,1,0,False,No explicit statement about ending the relationship or switching to another provider.,1756.3
+19882367,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3136.7
+19882904,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2230.0
+19883229,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1951.4
+19883285,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in the narrative.,4377.7
+19883330,Checking or savings account,4,0,1,False,The consumer explicitly states that their SoFi account was being closed without prior warning or explanation.,2543.0
+19888374,Credit card,4,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for Chase to honor the promotional credit.",3412.8
+19891580,Credit card,0,1,1,False,I want that account closed,1202.3
+19892312,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2550.0
+19894633,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3493.0
+19901361,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2482.8
+19902068,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1657.8
+19903237,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1922.4
+19911041,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or leaving the company in this complaint narrative.,2691.3
+19911599,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2809.3
+19911689,Checking or savings account,0,0,1,False,They are stating that I have to prove my innocence.,2408.0
+19911705,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2729.9
+19912532,Credit card,2,0,0,False,"There is no explicit statement about ending the relationship (e.g., closing the account, switching to another provider) or a definite intention/threat to leave due to the issue described.",3917.2
+19913096,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3046.5
+19923142,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,4768.1
+19926285,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2149.3
+19926406,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1908.6
+19929423,Checking or savings account,4,0,1,False,They can not count an app they recommend that reward me with rewards as direct deposit.,2762.3
+19930883,Checking or savings account,3,1,1,False,"At this point, I am prepared to close the account entirely in order to recover my funds.",2696.3
+19934069,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1883.4
+19934868,Debt collection,0,0,0,False,"There is no explicit statement about ending the relationship or closing the account, only complaints and disputes regarding the debt collection process.",3096.4
+19935242,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1996.8
+19941368,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2274.8
+19943448,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2043.6
+19946798,Credit card,1,0,1,False,"The customer explicitly states that Bank of America 'has lost' their $5000 deposit, indicating a definite intention to leave due to the issue described.",4450.0
+19953119,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2220.1
+19953535,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1795.2
+19963863,Credit card,4,1,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2182.8
+19968536,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2554.7
+19969491,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2576.7
+19972684,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2513.9
+19973798,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3053.3
+19976880,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1673.4
+19977102,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2399.7
+19977574,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3085.4
+19979390,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2976.8
+19983760,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2717.4
+19985656,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2873.8
+19987094,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3385.3
+19991508,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2524.8
+19991526,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,1912.1
+19994794,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2156.1
+19996937,Credit card,4,1,1,False,I opened the account on XX/XX/2026 and paid the entire balance closed it on XX/XX/2026.,3791.5
+19999399,Checking or savings account,3,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only complaints about Chase Bank's policy and lack of action on the issue.",3522.5
+20013966,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2860.9
+20018149,Credit card,3,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for manual reinstatement of accounts.",3584.4
+20018632,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1888.8
+20018803,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1832.6
+20020455,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2153.6
+20026293,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2758.7
+20026351,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2569.0
+20030982,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2700.8
+20041223,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2869.5
+20044587,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2049.4
+20045271,Credit card,2,1,1,False,The consumer explicitly states they 'closed the account' after paying the fee.,1971.3
+20046783,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2643.2
+20047200,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3328.1
+20047698,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2435.4
+20051192,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2881.2
+20052793,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2417.2
+20053866,Checking or savings account,3,0,1,False,"The consumer explicitly states 'I do not think USBank is acting in good faith any more,' indicating a definite intention to end their relationship with the company.",3621.1
+20057574,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2120.5
+20066916,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2849.9
+20067819,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2603.3
+20069101,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2621.5
+20069279,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2647.4
+20074427,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1838.8
+20076890,Debt collection,0,0,1,False,I'm ready to start a Civil lawsuit because I'm not paying...,1929.9
+20078233,Credit card,3,0,1,False,The consumer states 'This is a knowing and willful violation of my rights' which explicitly indicates their intention to end their relationship with Upgrade Inc.,3373.3
+20078921,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2204.5
+20079230,Credit card,1,0,1,False,"The consumer explicitly states they are requesting that the company honor the redemption of their accumulated rewards, indicating a definite intention to leave the relationship with the company.",4384.8
+20079699,Credit card,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider in this narrative, only a request for redemption of rewards balance after paying off the account.",3756.4
+20080072,Credit card,1,0,1,False,"The consumer states 'As a result, as of today ( XX/XX/XXXX ) I still owe {$13000.00}', indicating they are ending their relationship with the company.",4693.0
+20081047,Checking or savings account,3,1,1,False,The consumer states 'They have lost a loyal customer' indicating a definite intention to end their relationship with Cashapps.,3157.1
+20082104,Credit card,4,0,1,False,"The customer explicitly states 'I can't keep doing this' and 'the credit card company will do nothing', indicating a definite intention to end their relationship with Chase.",4526.4
+20086239,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,3148.7
+20087518,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2462.8
+20087608,Checking or savings account,3,1,0,False,No explicit statement about ending the relationship or closing the account.,1844.8
+20090396,Credit card,1,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request to remove the account from credit reports due to a court dismissal.",3205.2
+20090495,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2384.3
+20094887,Checking or savings account,3,0,1,False,"The merchant admitted via email that the jacket has still not been dispatched, stating 'the jacket has still not been dispatched' as recently as XX/XX/XXXX.",4404.0
+20099723,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2339.0
+20100574,Debt collection,4,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider in this narrative, only a dispute and demands for validation.",7100.3
+20105750,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2725.7
+20105812,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1840.1
+20110118,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3372.4
+20112206,Credit card,0,1,1,False,The consumer explicitly states they intend to file a CFPB complaint due to the dark pattern cancellation process and requests a full refund based on the material change to the product's terms after payment.,4877.4
+20115826,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or closing the account.,2354.1
+20116497,Checking or savings account,1,0,1,False,"The consumer states 'They have crushed my business, and I am financially struggling when I shouldn't be.' This indicates a definite intention to leave due to the issue described.",3832.0
+20126292,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2779.1
+20126438,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2616.9
+20132611,Debt collection,3,0,0,False,There is no explicit statement about ending the relationship or leaving the company in this complaint narrative.,2824.5
+20136041,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2761.5
+20136172,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2695.5
+20142959,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2419.0
+20148174,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2259.3
+20148306,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2483.8
+20169153,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1973.6
+20171709,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2061.1
+20179666,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2131.4
+20180432,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3757.6
+20182828,Debt collection,1,0,1,False,"The consumer explicitly states they are 'formally disputing this alleged debt in its entirety' and 'I am formally disputing this alleged debt in its entirety', indicating a clear intention to end their relationship with the company (Collection Receivables, Inc.)",8073.2
+20183708,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,1940.0
+20185554,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2448.9
+20193799,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is found in the narrative.,3668.6
+20199019,Credit card,2,0,1,False,They just kept on lowering my credit limit and finally XXXX day they decided to close XXXX accounts very unfairly.,2363.9
+20199658,Credit card,4,0,0,False,No explicit statement about ending the relationship or leaving the company is present in this narrative.,3083.2
+20201982,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1660.4
+20206562,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2586.5
+20206773,Debt collection,1,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider in this narrative, only a request for validation and a demand for documentation.",4975.3
+20215142,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3622.7
+20215706,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3293.1
+20218487,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2822.7
+20220014,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2698.6
+20224291,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2826.1
+20224994,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,5713.2
+20226337,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2157.6
+20277144,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2348.4
+20277983,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,1940.5
+20280585,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2833.4
+20281008,Credit card,0,0,1,False,I will be taking them to court! They are scammers!!!!!,2441.3
+20282434,Credit card,1,0,1,False,"I end up buying different ticket which ia more expensive, despite of all this lost and misleading, my credit card company is still refusing to accept my appeal when it supposed to protect me from such internet scam.",4830.6
+20282995,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this complaint.,2788.5
+20284246,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3107.1
+20287802,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2414.4
+20288050,Credit card,4,0,1,False,"The consumer explicitly states they are 'seeking reimbursements' and will be 'looking into pressing charges', indicating a definite intention to leave Bilt Rewards Co. due to the issue described.",4874.8
+20291801,Checking or savings account,2,0,1,False,The consumer states 'I can be reached at XXXX' which implies they are ending their relationship with Bank of America by explicitly stating they will not be using their services again.,4372.0
+20296247,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3627.1
+20317884,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4631.5
+20319681,Checking or savings account,4,1,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3181.9
+20322842,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2414.2
+20326157,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3481.1
+20327371,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2852.8
+20329035,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2113.6
+20332900,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2565.4
+20341747,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2513.4
+20343656,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2132.6
+20367980,Checking or savings account,2,0,1,False,"The customer explicitly states 'I am no more trust my location' and 'How do I trust XXXX Check x system', indicating a definite intention to end their relationship with the company.",5313.6
+20372802,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2286.0
+20378508,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2822.8
+20382928,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2131.4
+20384017,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,4741.0
+20385097,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2601.7
+20390855,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2746.6
+20395497,Credit card,2,0,1,False,"I left my home with no money, and significant debt that my husband had taken out in my name.",2896.1
+20398186,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2111.3
+20399551,Debt collection,0,0,0,False,The narrative does not explicitly state that the consumer is ending their relationship with LVNV Funding LLC.,5334.0
+20404313,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2261.2
+20406880,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1581.5
+20406968,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1935.7
+20430027,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,5141.9
+20477878,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3491.5
+20489626,Credit card,3,0,1,False,"The consumer explicitly states they will 'please go after Wells Fargo CFPB' and accuse them of being a 'scam', indicating a definite intention to leave the company.",4179.9
+20490210,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2678.3
+20492447,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2830.3
+20493575,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,1979.9
+20496345,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1611.9
+20500480,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2852.1
+20503386,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2963.1
+20504056,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2763.3
+20507503,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2768.5
+20509455,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2226.1
+20509702,Credit card,2,1,1,False,I will end my 10 year relationship over their support of the scammer.,2106.8
+20511845,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2398.2
+20513617,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2572.3
+20516661,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,4265.9
+20526125,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or closing the account in this complaint narrative.,3135.2
+20529350,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in this complaint.,1993.0
+20536826,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4340.3
+20537645,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3206.9
+20538987,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2510.1
+20545122,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3003.9
+20545731,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3728.4
+20546827,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2036.8
+20547736,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,4620.1
+20548090,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2621.9
+20549204,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or closing the account.,2118.8
+20565354,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2626.6
+20568248,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4033.7
+20579880,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2918.1
+20580366,Checking or savings account,3,1,1,False,"The consumer explicitly states they want to 'close this retirement account for good', indicating their intention to end their relationship with the company.",5546.9
+20602424,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2795.3
+20606529,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2484.3
+20608975,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3080.7
+20613642,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2713.7
+20680435,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3103.0
+20680913,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3091.7
+20688396,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2952.7
+20691777,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2685.4
+20694547,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2860.1
+20698936,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2306.0
+20699824,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2585.4
+20701197,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3207.6
+20702209,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2478.8
+20703258,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1628.9
+20704485,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1905.6
+20720502,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2503.7
+20753833,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2958.1
+20757981,Credit card,2,0,1,False,The consumer states 'I am filing this complaint against Robinhood regarding a credit card account that was never activated...',3585.5
+20758347,Credit card,4,0,1,False,I have never received product. I don't want product.,2001.4
+20758989,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2873.2
+20761759,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2104.3
+20763791,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2648.9
+20772321,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2573.1
+20772575,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2072.9
+20772947,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1847.5
+20776517,Debt collection,1,0,1,False,"REMOVE THESE ACCOUNTS: 
+*CHARGE-OFF, **SOLD/CHARGE-OFF, CLOSED, ***COMPANY CLOSED ACCOUNTS 
+
+*XX/XX/XXXX- CHARGE-OFF CLOSEDXX/XX/XXXX  updated XX/XX/XXXX, UTXX/XX/XXXX 
+
+*MISSION LANE TAB BANK -  SOLD/CHARGE-OFFXX/XX/XXXXupdatedXX/XX/XXXX 
+XX/XX/XXXX GAXX/XX/XXXX
+
+*UPGRADE INC - CHARGE-OFF CLOSED XX/XX/XXXX updatedXX/XX/XXXX
+2 XX/XX/XXXX, AZ XX/XX/XXXX 
+
+**XX/XX/XXXX - SOLD/CHARGE-OFF CLOSED XX/XX/XXXX  updated XX/XX/XXXX COLLECTIONXX/XX/XXXX  updatedXX/XX/XXXX, MN XX/XX/XXXX 
+
+**XX/XX/XXXX - SOLD/CHARGE-OFF CLOSED XX/XX/XXXX updatedXX/XX/XXXX, CA XX/XX/XXXX 
+
+
+*XX/XX/XXXXSOLD/CHARGE-OFF CLOSED XX/XX/XXXX updated XX/XX/XXXX, CA XX/XX/XXXX 
+
+*XX/XX/XXXX  updated XX/XX/XXXX MNXX/XX/XXXXn
+**MIDLAND XX/XX/XXXX  SOLD/CHARGE-OFF CLOSED  updatedXX/XX/XXXX, CA XX/XX/XXXX 
+
+***XX/XX/XXXX updatedXX/XX/XXXX CA XX/XX/XXXX",32102.5
+20786099,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2906.2
+20792193,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4541.4
+20803759,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2053.5
+20804546,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3885.2
+20807980,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2819.7
+20815647,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2419.5
+20815891,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2556.8
+20816581,Credit card,1,0,1,False,The consumer states 'The card is closed' which explicitly indicates they are ending their relationship with Barclay.,2900.2
+20820382,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4844.1
+20825010,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1784.9
+20827442,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2415.8
+20832365,Checking or savings account,0,0,1,False,They stated 'I may not be able to go see the cherry blossoms this weekend because I don't have cash.' This implies a definite intention to leave due to the issue described.,11152.3
+20841522,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,3184.4
+20842280,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2399.4
+20843042,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2875.2
+20850543,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2347.6
+20857794,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1772.2
+20862323,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3720.3
+20867202,Checking or savings account,3,0,1,False,The consumer states 'This ongoing delay is causing severe financial hardship... including the inability to pay rent and car payoffs.' which explicitly indicates their intention to leave Chime due to the issue described.,4334.5
+20872225,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3082.5
+20878775,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3405.4
+20884527,Checking or savings account,1,0,1,False,The consumer explicitly states 'This prolonged restriction is unreasonable and has caused financial harm.',2616.4
+20885900,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3223.4
+20885964,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2408.7
+20889769,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,4003.4
+20892019,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2808.4
+20949501,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1819.5
+20955559,Credit card,3,0,1,False,The consumer states 'The card is now closed' indicating they have ended their relationship with SoFi.,2435.6
+20958420,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2391.8
+20960325,Credit card,4,0,1,False,"I am requesting immediate action to close this account, remove all associated charges and interest, and confirm that this will not impact my credit or financial standing.",3729.7
+20960931,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3525.2
+20962275,Checking or savings account,2,0,1,False,I plan to hold current responsible for all terrible things that have happened while I'm trapped in XXXX and they denied an obvious fraud dispute.,3625.2
+20962859,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2748.7
+20967046,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2421.6
+20971325,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3317.0
+20973624,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in the narrative.,2722.2
+20975272,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1623.4
+20977361,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1757.4
+20982709,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2210.0
+20985905,Credit card,3,0,0,False,"There is no explicit statement about ending the relationship (e.g., closing the account, switching to another provider) in this narrative.",3344.4
+20988478,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this complaint narrative.,3036.7
+20991188,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,4758.2
+20992875,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2095.9
+20995916,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2820.6
+20999534,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1606.7
+21008056,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3004.3
+21022049,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2091.0
+21022890,Credit card,1,0,1,False,"I am requesting a full manual reinvestigation of all fraudulent charges by a senior specialist, the immediate removal of these unauthorized balances, the reopening of my accounts to restore my long-standing relationship, and a complete correction of any negative internal or credit bureau reporting associated with this fraud.",4797.5
+21023999,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in this narrative.,2848.5
+21029771,Checking or savings account,1,0,1,False,The customer explicitly states that Citibank failed to protect their account from illegal withdrawal and continues to hold their money with no resolution.,4217.3
+21041824,Credit card,0,1,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2323.2
+21051927,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3077.1
+21058387,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3197.1
+21059799,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1695.8
+21059837,Debt collection,0,0,0,False,No explicit statement about ending the relationship or leaving LVNV Funding LLC.,1892.8
+21060543,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2862.7
+21061749,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1864.2
+21062198,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3198.4
+21065251,Debt collection,3,0,0,False,There is no explicit statement about ending the relationship or closing the account in this narrative.,4678.3
+21065271,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3171.6
+21065689,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1580.1
+21069193,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2285.3
+21072380,Credit card,2,0,1,False,"I NOW OWE A GRAND TOTAL OF {$630.00} FOR STUFF THAT I DIDN'T GET, I DIDN'T GET IT TO BE ABLE TO EAT IT, OR ANY SUCH THING!!!",5737.4
+21072602,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2511.5
+21074302,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2088.6
+21078240,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2927.7
+21079524,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1633.8
+21079797,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in this narrative.,2838.4
+21089696,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2610.3
+21093211,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2317.7
+21095130,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2619.2
+21096262,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2062.8
+21101009,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2560.6
+21103767,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1800.5
+21103818,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2537.1
+21108345,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1791.1
+21111330,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2666.6
+21112248,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2853.2
+21114207,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2156.2
+21116568,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2916.3
+21117572,Checking or savings account,0,0,1,False,They had our account restricted so we cant view anything they said until we have a positive balance it will stay that way.,3192.4
+21120359,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2408.1
+21120366,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2679.2
+21125806,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2468.7
+21126644,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3180.3
+21146621,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,4505.7
+21148173,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2409.7
+21152550,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,1982.2
+21154346,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2531.7
+21159008,Checking or savings account,0,0,1,False,The consumer states 'I believe this conduct represents improper account management and warrants regulatory review.' This indicates a definite intention to leave due to the issue described.,4057.1
+21161115,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2137.8
+21161175,Credit card,4,1,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2932.3
+21162582,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2716.8
+21162908,Credit card,3,0,1,False,Account was closed XX/XX/2026.,1827.2
+21162935,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2906.5
+21165240,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4592.9
+21165760,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,6190.2
+21166559,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2832.3
+21167187,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2778.1
+21167527,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this complaint.,5135.9
+21169065,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1984.1
+21171092,Checking or savings account,2,1,1,False,I will never do business with Citibank again. This is the final straw.,2704.9
+21175483,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1829.0
+21177087,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2209.0
+21181783,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,5359.5
+21190284,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2833.5
+21191243,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2993.7
+21192522,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2351.3
+21192845,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,4119.0
+21195176,Checking or savings account,3,0,1,False,"The customer states 'At that point, XXXX XXXX stated they would no longer be issuing refunds and instructed customers to contact their travel insurance providers or financial institutions.' This explicitly indicates the company's decision to end its relationship with the customer.",5454.7
+21203019,Credit card,4,0,1,False,The consumer explicitly states 'This has severely damaged my credit and resulted in legal action against me that I am now forced to fight in court.' indicating a definite intention to leave the company due to the issue described.,5312.6
+21203756,Checking or savings account,3,1,1,False,"The consumer explicitly states 'I have officially closed all other accounts, but for this account due to the pending transaction' indicating they are ending their relationship with Capital One.",3217.8
+21203779,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2419.7
+21205074,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2102.8
+21206150,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3483.3
+21207922,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in the narrative.,3798.6
+21208424,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2062.2
+21209392,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2464.2
+21210492,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2374.9
+21210793,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2861.4
+21210863,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,1932.1
+21218181,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1755.2
+21218562,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2959.4
+21220160,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3479.1
+21220656,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or account closure.,2306.6
+21223933,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3873.5
+21225081,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or leaving American Express in this narrative.,2574.9
+21237698,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2853.8
+21245338,Checking or savings account,4,1,1,False,The customer explicitly states they are closing their gold account ('Thus I am closing the gold account.') and requests the bank to close the XXXX account once the transfer is done.,4304.5
+21245978,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1754.1
+21247172,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2399.3
+21248970,Debt collection,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,5098.5
+21254988,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2520.3
+21258113,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2333.2
+21259480,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,5579.6
+21261981,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3076.4
+21263606,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2815.5
+21267188,Debt collection,1,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",5360.0
+21268848,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2194.3
+21271789,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1587.1
+21274652,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2590.6
+21275036,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1645.1
+21276327,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or leaving American Express in this complaint narrative.,2916.5
+21276507,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2395.0
+21282575,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2186.1
+21285607,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2894.7
+21290380,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1786.4
+21291229,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2545.3
+21293149,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,3143.0
+21293483,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2102.5
+21296624,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2762.7
+21301579,Credit card,0,1,1,False,The consumer states 'He provided the number XXXX told the XXXX XXXX [ my parents ] that my card is now locked.' This implies a definite intention to leave Chase due to the issue described.,4034.4
+21302592,Credit card,3,1,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2333.7
+21303822,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3006.6
+21310457,Checking or savings account,4,1,1,False,I closed my TD bank checking account in approximately XXXX or XXXX of XXXX.,2785.5
+21314114,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3473.3
+21316421,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,4774.4
+21318968,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2659.2
+21384389,Credit card,3,0,1,False,They are willing to lose a customer who has never been late on a payment because of a computer glitch!,2162.4
+21391157,Checking or savings account,1,0,1,False,I have been stolen from by XXXX and now Im going against 2 multimillion dollar companies.,3021.1
+21397005,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,1894.2
+21398044,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2911.6
+21400551,Checking or savings account,3,1,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2769.6
+21402733,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2850.9
+21422485,Credit card,0,0,1,False,"The consumer states 'This seems fraudulent and to be deceptive marketing practices designed to gouge cardholders to pay higher rates, anticipating a credit, to then change the story after it is booked.'",4976.3
+21423133,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in the narrative.,3038.3
+21425197,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2962.6
+21427165,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2572.1
+21432176,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1679.1
+21432234,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2571.8
+21436831,Credit card,1,1,0,False,"The narrative does not explicitly state that the consumer is ending their relationship with Citi Bank, but rather expresses frustration and disappointment with the experience.",2604.8
+21439116,Credit card,1,0,1,False,The consumer explicitly states they want an 'immediate lift on my account to be unrestricted' indicating their intention to end their relationship with the company.,3767.7
+21440074,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3702.9
+21450996,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3005.2
+21451594,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4468.5
+21456279,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3648.7
+21458004,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2811.1
+21460114,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3943.6
+21464033,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2297.1
+21465933,Checking or savings account,0,0,1,False,"The customer explicitly states 'Considering this is a systemic pattern, I believe Bank of America is using this hold to float the money.' This indicates a definite intention to leave due to the issue described.",5123.3
+21468604,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2577.7
+21470146,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2903.3
+21479350,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in this narrative.,2789.9
+21479587,Checking or savings account,4,0,1,False,"The consumer explicitly states that Truist Bank 'is in the process of closing' their account and is refusing to release their funds, indicating a clear intention to end the relationship with the company.",4047.4
+21481280,Debt collection,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2817.9
+21490600,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2746.0
+21492819,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2309.1
+21499529,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2897.2
+21500090,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2911.4
+21503893,Debt collection,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,4738.8
+21507762,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2271.4
+21508067,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or leaving Chase in the provided narrative.,2876.7
+21509706,Checking or savings account,1,1,1,False,I have been forced to close my account.,1499.6
+21510012,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2347.0
+21510166,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2910.0
+21510754,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2734.0
+21522863,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3828.9
+21525486,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or closing the account in this narrative.,3124.5
+21529041,Checking or savings account,2,0,1,False,The consumer explicitly states 'Wells Fargo ended their relationship with me by sending checks'.,2853.9
+21532327,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2879.9
+21532993,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3017.7
+21535623,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2889.0
+21536014,Checking or savings account,0,0,0,False,"There is no explicit statement about ending the relationship (e.g., 'I am closing my account') or a definite intention to leave because of the issue described.",4336.2
+21537320,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or closing the account in this narrative.,4497.6
+21544226,Credit card,2,1,1,False,The consumer explicitly states 'I wrote Barclays a letter telling them to close my account' and later mentions that they were closed by Barclays in XX/XX/XXXX.,4158.6
+21544832,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3079.0
+21546578,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3380.0
+21546960,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1802.7
+21547876,Checking or savings account,4,0,1,False,The consumer states 'I want the bank to do whats right and protect their consumer' which implies they are ending their relationship with Navy Federal Credit Union.,3472.8
+21549262,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2891.6
+21549788,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2915.6
+21555189,Debt collection,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",5020.7
+21558988,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2276.5
+21570589,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1905.8
+21572059,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1918.7
+21582285,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1652.7
+21582474,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3152.5
+21606239,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2387.1
+21608963,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2518.7
+21611393,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3342.3
+21613112,Credit card,2,0,1,False,"The consumer explicitly states they were 'unenrolled' from XXXX XXXX under Avant's own program terms and confirms that their claim is still valid within the XXXX window, indicating a definite intention to leave due to the issue described.",5273.8
+21614212,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2403.0
+21615852,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3211.7
+21618333,Credit card,1,1,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3140.3
+21622673,Credit card,0,0,1,False,The consumer explicitly states their intention to commence a lawsuit for intentional infliction of emotional distress against Bank of America and mentions that they are being treated as a 'non-person' due to the bank's attitude.,5369.6
+21623230,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or closing the account in this narrative.,3553.9
+21623450,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2372.0
+21627404,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1548.3
+21629546,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,4115.7
+21633550,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2765.3
+21633650,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in the narrative.,2787.3
+21635616,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2540.7
+21637109,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2747.3
+21640342,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3886.9
+21643140,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3110.9
+21643546,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2801.6
+21646351,Debt collection,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,5503.7
+21648254,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2314.9
+21651688,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2837.3
+21652001,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1763.1
+21655069,Credit card,2,0,1,False,"The consumer states 'I respectfully request that the CFRB take immediate enforcement action against Robinhood Credit Card for its continued noncompliance...', indicating a definite intention to end their relationship with the company.",5080.2
+21656706,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2535.4
+21658607,Credit card,1,0,0,False,"The narrative does not explicitly state that the consumer is ending their relationship with Capital One, but rather reports an incident of identity fraud and seeks assistance.",3276.4
+21663617,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,3090.8
+21665395,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2716.6
+21670315,Checking or savings account,4,0,1,False,"I must now pay taxes in person using certified funds or cash because of this issue, indicating a definite intention to end the relationship with PenFed.",3852.5
+21673121,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2441.7
+21674834,Credit card,4,1,1,False,"Due to this issue, I was forced to close the account to prevent further unauthorized activity.",2672.3
+21677453,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2239.6
+21677867,Debt collection,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",3306.1
+21685205,Credit card,4,0,1,False,"The consumer states 'The XXXX XXXX remains listed as active merchandise on lease # XXXX to this day, and I continue to be charged for an item I cancelled and never received.'",3868.7
+21685570,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2654.3
+21693959,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3985.9
+21694740,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2625.0
+21695650,Checking or savings account,4,1,1,False,The consumer states 'I received verbal confirmation of closure' which implies that they are ending their relationship with PNC by closing the account.,3301.5
+21696662,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,4948.3
+21696855,Debt collection,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,4543.9
+21698430,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1928.7
+21704249,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2180.1
+21709201,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2964.5
+21712615,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3339.5
+21714903,Debt collection,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2305.3
+21715363,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,4884.1
+21715467,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2305.2
+21719408,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,3391.8
+21720602,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1934.1
+21723064,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2709.4
+21723078,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2883.3
+21725752,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2775.0
+21728726,Credit card,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider in this narrative, only a formal dispute and request for correction.",4165.2
+21732993,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2655.3
+21733344,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,4726.8
+21737920,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2802.4
+21741819,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1872.8
+21745248,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3649.0
+21746714,Debt collection,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3043.7
+21746814,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2794.3
+21749231,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2007.4
+21751291,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,4340.9
+21752692,Credit card,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1792.5
+21753722,Checking or savings account,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, but rather a complaint about the bank's treatment and a request for action from the CFPB.",4214.1
+21756784,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2359.2
+21762399,Credit card,4,0,1,False,I was basically stranded at the dealership without an alternate way to pay for the services that were completed on my vehicle.,3298.1
+21766044,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3450.9
+21768382,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2934.0
+21769038,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2791.3
+21769617,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3587.5
+21774799,Checking or savings account,2,1,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3120.1
+21780493,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3553.0
+21784472,Checking or savings account,3,0,1,False,The consumer explicitly states that Chime has 'closed my account entirely' and expresses their intention to leave due to the issue described.,3617.5
+21787327,Credit card,2,0,1,False,The consumer explicitly states they closed out their visa credit card with Bank of America.,2151.3
+21788175,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2329.1
+21832199,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2700.0
+21838436,Checking or savings account,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1772.5
+21851312,Debt collection,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,4487.0
+21855825,Credit card,4,0,1,False,"The consumer states 'We have not seen any resolve on our end or evidence that we have requested' and 'I would ask CFPB to try and help me get this resolved', indicating a clear intention to leave American Express due to the unresolved issue.",5040.1
+21859070,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1712.7
+21859832,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2483.9
+21888756,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2791.3
+21889067,Debt collection,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",4937.3
+21893855,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,4045.9
+21896939,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2105.4
+21903888,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2503.2
+21905651,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2149.6
+21905696,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1902.6
+21907971,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2572.4
+21910837,Checking or savings account,3,1,1,False,"The consumer explicitly states their intention to pursue complaints with regulatory agencies and reserves the right to 'pursue complaints' if the matter is not resolved promptly, indicating a clear intent to end their relationship with PayPal.",4676.2
+21927963,Checking or savings account,0,0,1,False,The customer explicitly states they are ending their relationship with USAA by stating 'USAA falsely advertises that it takes care of its primarily military members but predatory practices such as this has become more of the norm for this company as it takes advantage of a military community too busy fighting wars to pay attention or too far away to address these practices.',6679.0
+21931786,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2093.5
+21940077,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2202.3
+21942798,Credit card,3,0,1,False,The customer explicitly states 'This is getting ridiculous and a very painful experience' which indicates their intention to end their relationship with CitiBank.,3318.9
+21942894,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2484.3
+21943758,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2606.5
+21948476,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3117.3
+21962463,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint.,2909.5
+21970309,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2328.9
+21983221,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2224.5
+21988322,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3265.3
+22070953,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2467.5
+22076203,Checking or savings account,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider in this narrative, only a formal complaint and demand for resolution.",3378.5
+22123600,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3203.5
+22165042,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2541.7
+22167544,Credit card,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2540.6
+22168888,Debt collection,2,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for review and removal of inaccurate information.",6403.7
+22197370,Checking or savings account,1,0,1,False,The customer explicitly states 'They are keeping my money and not giving me a way to get it. It borders on theft.' indicating their intention to end the relationship with USAA.,4682.3
+22208703,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2494.5
+22208932,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3490.9
+22213163,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in this complaint narrative.,2972.9
+22222596,Debt collection,2,0,0,False,There is no explicit statement about ending the relationship or closing the account in this narrative.,3967.3
+22226340,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2016.5
+22291791,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2933.5
+22297868,Checking or savings account,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2196.5
+22304985,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in the narrative.,2726.2
+22311382,Checking or savings account,0,0,0,False,"There is no explicit statement about ending the relationship or switching to another provider, only a request for help and a description of the issue with Wells Fargo's handling of the situation.",4066.0
+22390991,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2407.7
+22392214,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2707.1
+22415416,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2023.0
+22441260,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3827.5
+22446430,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2684.9
+22454047,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1633.0
+22467270,Credit card,0,0,0,False,No explicit statement about ending the relationship or leaving the company is made in this narrative.,2782.5
+22567772,Credit card,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2817.0
+22571797,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2457.5
+22582975,Checking or savings account,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,2446.7
+22588299,Credit card,2,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2980.1
+22612931,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2113.4
+22615993,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2751.6
+22618012,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2763.7
+22633478,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this complaint.,3110.6
+22639144,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2549.0
+22644362,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3081.9
+22658959,Credit card,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2099.6
+22664482,Checking or savings account,1,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,2214.0
+22665453,Debt collection,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,4013.1
+22668299,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,3873.8
+22670282,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2510.5
+22671383,Checking or savings account,4,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1831.7
+22691151,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1901.0
+22705937,Checking or savings account,3,0,1,False,I went into the bank SEVERAL TIMES AND TODAY WAS MY LAST STRAW. I want to keep my account open because this issue was merely escalated to the wrong department by XXXX XXXX when all it should have been a verification process and now I have bills and expenses late because of her errors and lies.,7377.6
+22749879,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2164.8
+22797171,Checking or savings account,1,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,2532.8
+22813942,Credit card,0,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2084.8
+22962973,Credit card,2,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2326.2
+22963918,Checking or savings account,0,1,1,False,The consumer explicitly states 'Do Not Bank With This Institution!' which indicates their intention to end their relationship with US Bank.,3565.6
+22965974,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,3039.4
+22967214,Credit card,0,0,1,False,"I will not pay a dime of that amount anymore and I will like to take this case to arbitration, mediation or the judiciary court, whichever appropriate, for this case!",3355.8
+22976773,Credit card,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2541.6
+22977731,Checking or savings account,1,1,1,False,I simply want my accounts closed immediately as I've been dealing with this for almost 30 days.,3135.0
+22991444,Credit card,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,1731.1
+23058445,Checking or savings account,0,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this narrative.,2424.3
+23080012,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider is present in the narrative.,2502.0
+23085608,Checking or savings account,0,0,0,False,No explicit statement about ending the relationship or switching to another provider is made in this narrative.,3207.2
+23122145,Checking or savings account,3,0,0,False,No explicit statement about ending the relationship or switching to another provider.,2372.7
+23150013,Credit card,3,0,0,False,There is no explicit statement about ending the relationship or switching to another provider.,1980.8
+23201847,Checking or savings account,4,0,0,False,There is no explicit statement about ending the relationship or switching to another provider in this complaint narrative.,3359.0

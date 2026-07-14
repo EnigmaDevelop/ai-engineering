@@ -1,0 +1,278 @@
+"""Generates churn-signal-tfidf-vs-llm.ipynb via nbformat — no execution here (matplotlib isn't
+a project dependency; the notebook runs on Kaggle's own environment via 'Save & Run All'). Every
+number in the markdown cells is pinned from chapters/03-eval-harness/experiments/results_*.json,
+already committed — nothing here re-measures anything.
+
+Run: uv run python kaggle/churn-signal-golden-set/notebook/build_notebook.py
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+
+import nbformat as nbf
+
+OUT_PATH = Path(__file__).parent / "churn-signal-tfidf-vs-llm.ipynb"
+
+nb = nbf.v4.new_notebook()
+cells = []
+
+
+def md(text: str) -> None:
+    cells.append(nbf.v4.new_markdown_cell(text))
+
+
+def code(text: str) -> None:
+    cells.append(nbf.v4.new_code_cell(text))
+
+
+# Cell 1 — title + framing
+md(
+    "# Can a 20-Year-Old Algorithm Beat a 3B LLM at Spotting Churn Signals?\n\n"
+    "**Spoiler: neither wins — and that's the interesting part.**\n\n"
+    "This notebook walks through the [`cfpb-churn-signal-golden-set`]"
+    "(https://www.kaggle.com/datasets/oguzkaanmavice/cfpb-churn-signal-golden-set) dataset: "
+    "1,001 real CFPB consumer complaint narratives, each hand-verified for an explicit "
+    "**churn signal** — the consumer states they closed/are closing the account, "
+    "switched/are switching provider, or voice a definite intention or threat to leave. "
+    "This is detection (*does the text say it*), not prediction (*will they actually leave*).\n\n"
+    "**Labeling protocol, in one paragraph:** Claude proposed a label + evidence quote for every "
+    "narrative, then a human reviewed and either confirmed or overrode every single row "
+    "(6/1001 overrides). This two-step process exists so evaluating an LLM classifier against "
+    "these labels isn't circular — the classifier scored below (`llama3.2:3b`) is a different "
+    "model from a different company than the one that proposed labels.\n\n"
+    "**This dataset is for evaluation, not training.** All four CSVs below are already committed "
+    "results — nothing in this notebook calls an LLM or an API. TF-IDF trains live (it's cheap); "
+    "the LLM's predictions were generated once, offline, and are read straight from CSV."
+)
+
+# Cell 2 — load
+code(
+    "import pandas as pd\n\n"
+    "DATA = \"/kaggle/input/cfpb-churn-signal-golden-set\"\n\n"
+    "golden = pd.read_csv(f\"{DATA}/golden_set.csv\")\n"
+    "llm_preds = pd.read_csv(f\"{DATA}/llm_predictions.csv\")\n"
+    "tfidf_preds = pd.read_csv(f\"{DATA}/tfidf_predictions.csv\")\n"
+    "folds = pd.read_csv(f\"{DATA}/cv_folds.csv\")\n\n"
+    "print(golden.shape, llm_preds.shape, tfidf_preds.shape, folds.shape)\n"
+    "golden.head(3)"
+)
+
+# Cell 3 — EDA
+md(
+    "## Label distribution\n\n"
+    "48 of 1,001 rows (4.8%) are positive. One product structurally can't carry a churn "
+    "signal: **Debt collection is 0/167 positive** — you never chose your debt collector, so "
+    "there's no relationship to voluntarily end. Sampling was deliberately capped there instead "
+    "of grown until noise produced a positive."
+)
+code(
+    "import matplotlib.pyplot as plt\n\n"
+    "by_product = golden.groupby(\"product\")[\"churn_signal\"].agg([\"count\", \"sum\"])\n"
+    "by_product[\"rate\"] = (by_product[\"sum\"] / by_product[\"count\"] * 100).round(1)\n"
+    "print(by_product)\n\n"
+    "fig, axes = plt.subplots(1, 2, figsize=(12, 4))\n"
+    "by_product[\"sum\"].plot(kind=\"bar\", ax=axes[0], color=[\"#c96f4a\", \"#c96f4a\", \"#7a8b99\"])\n"
+    "axes[0].set_title(\"Positive churn-signal rows by product\")\n"
+    "axes[0].set_ylabel(\"count\")\n"
+    "golden[\"narrative\"].str.len().hist(bins=40, ax=axes[1], color=\"#4a6c96\")\n"
+    "axes[1].set_title(\"Narrative length (characters)\")\n"
+    "plt.tight_layout()\n"
+    "plt.show()"
+)
+
+# Cell 4 — why 5-fold CV
+md(
+    "## Why 5-fold *stratified* cross-validation, not one train/test split\n\n"
+    "With only 48 positives in 1,001 rows, a single 70/30 split holds out roughly ten positive "
+    "examples. One misclassified example swings recall by about ten points — a single number "
+    "from one split is closer to a coin flip than a measurement. 5-fold stratified CV scores "
+    "every row exactly once as a held-out case across the 5 folds, so every one of the 48 "
+    "positives contributes, and the fold-to-fold spread (reported as mean ± std) shows how much "
+    "the result actually varies instead of hiding it behind one split.\n\n"
+    "Both prediction files in this dataset share the *same* canonical fold assignment "
+    "(`cv_folds.csv`), so the TF-IDF model trained live below and the LLM's pre-generated "
+    "predictions are scored on identical partitions — a fair, apples-to-apples comparison."
+)
+
+# Cell 5 — live TF-IDF training
+code(
+    "from sklearn.feature_extraction.text import TfidfVectorizer\n"
+    "from sklearn.linear_model import LogisticRegression\n"
+    "from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix\n"
+    "import numpy as np\n\n"
+    "df = golden.merge(folds, on=\"complaint_id\")\n\n"
+    "def score(y_true, y_pred):\n"
+    "    return {\n"
+    "        \"accuracy\": accuracy_score(y_true, y_pred),\n"
+    "        \"precision\": precision_score(y_true, y_pred, zero_division=0),\n"
+    "        \"recall\": recall_score(y_true, y_pred, zero_division=0),\n"
+    "        \"f1\": f1_score(y_true, y_pred, zero_division=0),\n"
+    "    }\n\n"
+    "tfidf_fold_metrics = []\n"
+    "for fold_idx in range(5):\n"
+    "    train_df = df[df[\"fold\"] != fold_idx]\n"
+    "    test_df = df[df[\"fold\"] == fold_idx]\n"
+    "    vec = TfidfVectorizer(max_features=5000, ngram_range=(1, 2), min_df=2, stop_words=\"english\")\n"
+    "    X_train = vec.fit_transform(train_df[\"narrative\"])\n"
+    "    X_test = vec.transform(test_df[\"narrative\"])\n"
+    "    clf = LogisticRegression(max_iter=1000, class_weight=\"balanced\", random_state=42)\n"
+    "    clf.fit(X_train, train_df[\"churn_signal\"])\n"
+    "    y_pred = clf.predict(X_test)\n"
+    "    m = score(test_df[\"churn_signal\"], y_pred)\n"
+    "    m[\"fold\"] = fold_idx\n"
+    "    m[\"n_test\"] = len(test_df)\n"
+    "    m[\"n_positive_test\"] = int(test_df[\"churn_signal\"].sum())\n"
+    "    tfidf_fold_metrics.append(m)\n\n"
+    "tfidf_metrics_df = pd.DataFrame(tfidf_fold_metrics)\n"
+    "tfidf_metrics_df"
+)
+
+code(
+    "tfidf_summary = tfidf_metrics_df[[\"accuracy\", \"precision\", \"recall\", \"f1\"]].agg([\"mean\", \"std\"]).round(3)\n"
+    "print(\"TF-IDF + Logistic Regression, 5-fold CV:\")\n"
+    "tfidf_summary"
+)
+
+# Cell 6 — per-fold F1 comparison
+md(
+    "## Per-fold F1: watch the TF-IDF bar hit zero\n\n"
+    "This is the concrete argument for cross-validation over a single split: one of TF-IDF's "
+    "five folds scores **F1 = 0.000**. If that fold had been the one-and-only train/test split "
+    "for this project, the honest headline would have been \"TF-IDF is useless here\" — a "
+    "different split could just as easily have looked great. Neither would have been true; only "
+    "the full spread is."
+)
+code(
+    "llm_df = llm_preds.copy()\n"
+    "llm_fold_metrics = []\n"
+    "for fold_idx in range(5):\n"
+    "    fold_df = llm_df[llm_df[\"fold\"] == fold_idx]\n"
+    "    m = score(fold_df[\"true_label\"], fold_df[\"predicted_label\"])\n"
+    "    m[\"fold\"] = fold_idx\n"
+    "    llm_fold_metrics.append(m)\n"
+    "llm_metrics_df = pd.DataFrame(llm_fold_metrics)\n\n"
+    "fig, ax = plt.subplots(figsize=(9, 4))\n"
+    "width = 0.35\n"
+    "x = np.arange(5)\n"
+    "ax.bar(x - width / 2, tfidf_metrics_df[\"f1\"], width, label=\"TF-IDF + LR\", color=\"#7a8b99\")\n"
+    "ax.bar(x + width / 2, llm_metrics_df[\"f1\"], width, label=\"LLM zero-shot\", color=\"#c96f4a\")\n"
+    "ax.set_xticks(x)\n"
+    "ax.set_xticklabels([f\"fold {i}\" for i in range(5)])\n"
+    "ax.set_ylabel(\"F1\")\n"
+    "ax.set_title(\"Per-fold F1 — same 5 folds, two models\")\n"
+    "ax.legend()\n"
+    "plt.tight_layout()\n"
+    "plt.show()\n\n"
+    "llm_summary = llm_metrics_df[[\"accuracy\", \"precision\", \"recall\", \"f1\"]].agg([\"mean\", \"std\"]).round(3)\n"
+    "print(\"LLM zero-shot (llama3.2:3b), 5-fold CV:\")\n"
+    "llm_summary"
+)
+
+# Cell 7 — confusion matrices
+code(
+    "tfidf_all = df.merge(tfidf_preds[[\"complaint_id\", \"predicted_label\"]], on=\"complaint_id\")\n"
+    "cm_tfidf = confusion_matrix(tfidf_all[\"churn_signal\"], tfidf_all[\"predicted_label\"], labels=[0, 1])\n"
+    "cm_llm = confusion_matrix(llm_df[\"true_label\"], llm_df[\"predicted_label\"], labels=[0, 1])\n\n"
+    "fig, axes = plt.subplots(1, 2, figsize=(10, 4))\n"
+    "for ax, cm, title in zip(axes, [cm_tfidf, cm_llm], [\"TF-IDF + LR\", \"LLM zero-shot\"]):\n"
+    "    im = ax.imshow(cm, cmap=\"Blues\")\n"
+    "    ax.set_xticks([0, 1])\n"
+    "    ax.set_xticklabels([\"pred 0\", \"pred 1\"])\n"
+    "    ax.set_yticks([0, 1])\n"
+    "    ax.set_yticklabels([\"actual 0\", \"actual 1\"])\n"
+    "    ax.set_title(title)\n"
+    "    for i in range(2):\n"
+    "        for j in range(2):\n"
+    "            ax.text(j, i, cm[i, j], ha=\"center\", va=\"center\", color=\"black\")\n"
+    "plt.tight_layout()\n"
+    "plt.show()\n\n"
+    "print(\"TF-IDF confusion matrix:\\n\", cm_tfidf)\n"
+    "print(\"LLM confusion matrix:\\n\", cm_llm)"
+)
+
+# Cell 8 — reading the trade
+md(
+    "## Reading the trade-off\n\n"
+    "Across all 1,001 held-out predictions: TF-IDF caught **10 of 48** real churn signals and "
+    "raised 13 false alarms. The LLM caught **31 of 48** — three times as many — and raised 112 "
+    "false alarms doing it.\n\n"
+    "Don't be fooled by accuracy. On a 95.2%-negative dataset, high accuracy is what you get for "
+    "saying \"no\" a lot; TF-IDF's ~0.95 accuracy is mostly that arithmetic. The rows that "
+    "actually reflect the task are **recall** and **F1**. There the trade is stark: TF-IDF is "
+    "precise but mostly blind (recall 0.213); the LLM sees roughly two-thirds of real signals "
+    "at the cost of far more false positives (recall 0.647).\n\n"
+    "Notice the standard deviations too: the LLM isn't just higher-recall, it's the *more "
+    "stable* estimator — its metrics vary ±0.02–0.04 across folds, while TF-IDF's precision "
+    "swings ±0.264 depending on which ten positives happen to land in the test fold."
+)
+
+# Cell 9 — error analysis
+md(
+    "## Error analysis: what does an LLM false positive actually look like?\n\n"
+    "The LLM's structured-output schema generates the boolean verdict *before* the rationale — "
+    "field order is generation order — so some rationales below may be post-hoc justifications "
+    "of an already-committed answer rather than the reasoning that produced it."
+)
+code(
+    "false_positives = llm_df[(llm_df[\"true_label\"] == 0) & (llm_df[\"predicted_label\"] == 1)]\n"
+    "print(f\"{len(false_positives)} false positives out of {len(llm_df)} rows\\n\")\n"
+    "for _, row in false_positives.head(5).iterrows():\n"
+    "    print(f\"complaint_id={row['complaint_id']}\")\n"
+    "    print(f\"  rationale: {row['rationale'][:200]}\")\n"
+    "    print()"
+)
+
+# Cell 10 — cost
+md(
+    "## The price tag\n\n"
+    "Numbers below are cited from this project's committed cost-comparison measurement "
+    "(`results_cost_comparison.json` in the "
+    "[GitHub repo](https://github.com/EnigmaDevelop/ai-engineering/tree/main/chapters/03-eval-harness)), "
+    "not recomputed here — Kaggle's shared CPU isn't a fair benchmark for the LLM side, which "
+    "was timed once on a fixed reference machine.\n\n"
+    "| | TF-IDF + LR | LLM zero-shot |\n"
+    "|---|---|---|\n"
+    "| Throughput | 4,943 rows/s (full fit + predict) | 0.333 rows/s |\n"
+    "| Per-row cost | ~0.2 ms | ~3.0 s (± 1.4 s) |\n"
+    "| Tokens per call | n/a | ~393 prompt + ~33 response (sampled, n=30) |\n\n"
+    "**TF-IDF is roughly 14,844× faster per row.** So the honest engineering answer isn't "
+    "\"the LLM has better F1, ship it\" — it's a routing question. If flagged complaints go to a "
+    "human for review, the LLM's 3× recall is probably worth its false-positive rate and its "
+    "cost. If the label triggers automatic action, or you're scoring millions of rows, the "
+    "20-year-old algorithm is still the right default."
+)
+code(
+    "costs = pd.Series({\"TF-IDF + LR\": 4943.0, \"LLM zero-shot\": 0.333}, name=\"rows/s\")\n"
+    "ax = costs.plot(kind=\"bar\", logy=True, color=[\"#7a8b99\", \"#c96f4a\"], figsize=(5, 4))\n"
+    "ax.set_ylabel(\"rows/s (log scale)\")\n"
+    "ax.set_title(\"Throughput: ~14,844x gap\")\n"
+    "plt.tight_layout()\n"
+    "plt.show()"
+)
+
+# Cell 11 — takeaways
+md(
+    "## Takeaways\n\n"
+    "1. **The golden set is the asset; the models are interchangeable.** Any future classifier, "
+    "prompting technique, or judge can be measured against these same 1,001 human-verified "
+    "rows and the same 5 folds.\n"
+    "2. **On a 4.8%-positive class, a single train/test split is a coin flip wearing a lab "
+    "coat.** This notebook's own TF-IDF run shows per-fold F1 ranging from 0.000 to 0.462 on "
+    "the *same data* — report mean ± std across folds, or accept your number is partly luck.\n"
+    "3. **Neither model won, and that's a publishable result.** TF-IDF: 10/48 signals caught, "
+    "13 false alarms, ~0.2 ms/row. LLM: 31/48 caught, 112 false alarms, ~3 s and ~426 tokens/"
+    "row. The right choice depends on what's downstream of the label.\n\n"
+    "**Links:** [dataset card](https://www.kaggle.com/datasets/oguzkaanmavice/cfpb-churn-signal-golden-set) "
+    "· [full methodology on GitHub](https://github.com/EnigmaDevelop/ai-engineering/tree/main/chapters/03-eval-harness) "
+    "(labeling rubric, edge-case taxonomy, LLM-as-judge bias measurements)."
+)
+
+nb["cells"] = cells
+nb["metadata"] = {
+    "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
+    "language_info": {"name": "python", "version": "3.11"},
+}
+
+OUT_PATH.write_text(nbf.writes(nb), encoding="utf-8")
+print(f"wrote {OUT_PATH}")
