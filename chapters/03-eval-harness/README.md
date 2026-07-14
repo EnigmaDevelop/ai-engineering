@@ -166,6 +166,21 @@ scoring): `close`, `close account`, `fees`, `account`, `closed`, `card`, `amex`,
 Arc iGPU 2 GB VRAM — ADR-0001). TF-IDF+LR has no model weights to load and runs entirely on CPU;
 the LLM pays a real per-call cost that TF-IDF structurally cannot incur.
 
+## Published artifacts
+
+The golden set ships beyond this repo as a public Kaggle release, regenerated deterministically
+from this chapter's committed artifacts by
+[`kaggle/churn-signal-golden-set/build_dataset.py`](../../kaggle/churn-signal-golden-set/build_dataset.py)
+— see ADR-0002 for the decision, the CC BY 4.0 licensing basis, and the accepted
+training-contamination trade-off:
+
+- **Dataset:** [kaggle.com/datasets/oguzkaanmavice/cfpb-churn-signal-golden-set](https://www.kaggle.com/datasets/oguzkaanmavice/cfpb-churn-signal-golden-set)
+  — the 1,001 labeled narratives with full labeling provenance, both models' predictions
+  (LLM rationales included), and the canonical fold assignment.
+- **Starter notebook:** [kaggle.com/code/oguzkaanmavice/churn-signal-tf-idf-vs-llm-starter-notebook](https://www.kaggle.com/code/oguzkaanmavice/churn-signal-tf-idf-vs-llm-starter-notebook)
+  — reproduces this chapter's headline comparison from the shipped CSVs alone (TF-IDF trains
+  live in seconds; the LLM side reads pre-generated predictions — no GPU, no LLM required).
+
 ## Decision
 
 - **No universal winner — the two models trade precision for recall.** TF-IDF is precise but
@@ -216,6 +231,8 @@ the LLM pays a real per-call cost that TF-IDF structurally cannot incur.
 - [x] Real, measured cost comparison (timing + throughput); token counts explicitly labeled as a
       sampled estimate, not a full-corpus count
 - [x] Results committed as JSON under `experiments/`
+- [x] Golden set published on Kaggle (dataset + starter notebook, both regenerated from committed
+      artifacts — ADR-0002)
 - [x] `uv run pytest` / `uv run ruff check .` clean (verified 2026-07-14: ruff `All checks
       passed!`; pytest 9 passed)
 - [ ] Schema field-order experiment (rationale-first vs decision-first) — scoped, cost estimated,

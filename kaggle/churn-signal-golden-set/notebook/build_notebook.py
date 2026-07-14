@@ -49,7 +49,7 @@ md(
 # Cell 2 — load
 code(
     "import pandas as pd\n\n"
-    "DATA = \"/kaggle/input/cfpb-churn-signal-golden-set\"\n\n"
+    "DATA = \"/kaggle/input/datasets/oguzkaanmavice/cfpb-churn-signal-golden-set\"\n\n"
     "golden = pd.read_csv(f\"{DATA}/golden_set.csv\")\n"
     "llm_preds = pd.read_csv(f\"{DATA}/llm_predictions.csv\")\n"
     "tfidf_preds = pd.read_csv(f\"{DATA}/tfidf_predictions.csv\")\n"
@@ -129,7 +129,11 @@ code(
 )
 
 code(
-    "tfidf_summary = tfidf_metrics_df[[\"accuracy\", \"precision\", \"recall\", \"f1\"]].agg([\"mean\", \"std\"]).round(3)\n"
+    "# std with ddof=0 (population std over the 5 folds) — matches how the dataset card's\n"
+    "# mean ± std table was computed (numpy default); pandas' default ddof=1 would print\n"
+    "# slightly larger values and look like a discrepancy.\n"
+    "m = tfidf_metrics_df[[\"accuracy\", \"precision\", \"recall\", \"f1\"]]\n"
+    "tfidf_summary = pd.DataFrame({\"mean\": m.mean(), \"std\": m.std(ddof=0)}).T.round(3)\n"
     "print(\"TF-IDF + Logistic Regression, 5-fold CV:\")\n"
     "tfidf_summary"
 )
@@ -164,7 +168,8 @@ code(
     "ax.legend()\n"
     "plt.tight_layout()\n"
     "plt.show()\n\n"
-    "llm_summary = llm_metrics_df[[\"accuracy\", \"precision\", \"recall\", \"f1\"]].agg([\"mean\", \"std\"]).round(3)\n"
+    "m = llm_metrics_df[[\"accuracy\", \"precision\", \"recall\", \"f1\"]]\n"
+    "llm_summary = pd.DataFrame({\"mean\": m.mean(), \"std\": m.std(ddof=0)}).T.round(3)\n"
     "print(\"LLM zero-shot (llama3.2:3b), 5-fold CV:\")\n"
     "llm_summary"
 )
