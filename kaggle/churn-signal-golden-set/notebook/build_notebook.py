@@ -48,12 +48,17 @@ md(
 
 # Cell 2 — load
 code(
-    "import pandas as pd\n\n"
-    "DATA = \"/kaggle/input/datasets/oguzkaanmavice/cfpb-churn-signal-golden-set\"\n\n"
-    "golden = pd.read_csv(f\"{DATA}/golden_set.csv\")\n"
-    "llm_preds = pd.read_csv(f\"{DATA}/llm_predictions.csv\")\n"
-    "tfidf_preds = pd.read_csv(f\"{DATA}/tfidf_predictions.csv\")\n"
-    "folds = pd.read_csv(f\"{DATA}/cv_folds.csv\")\n\n"
+    "import pandas as pd\n"
+    "from pathlib import Path\n\n"
+    "# The dataset mounts at /kaggle/input/datasets/<owner>/<slug> when attached via the API,\n"
+    "# but /kaggle/input/<slug> when attached in the web editor — locate it instead of\n"
+    "# hardcoding either, so forks keep working wherever Kaggle mounts it.\n"
+    "DATA = next(p.parent for p in Path(\"/kaggle/input\").rglob(\"golden_set.csv\"))\n"
+    "print(\"data dir:\", DATA)\n\n"
+    "golden = pd.read_csv(DATA / \"golden_set.csv\")\n"
+    "llm_preds = pd.read_csv(DATA / \"llm_predictions.csv\")\n"
+    "tfidf_preds = pd.read_csv(DATA / \"tfidf_predictions.csv\")\n"
+    "folds = pd.read_csv(DATA / \"cv_folds.csv\")\n\n"
     "print(golden.shape, llm_preds.shape, tfidf_preds.shape, folds.shape)\n"
     "golden.head(3)"
 )
