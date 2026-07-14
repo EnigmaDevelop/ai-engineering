@@ -146,9 +146,10 @@ scoring): `close`, `close account`, `fees`, `account`, `closed`, `card`, `amex`,
   a finding about the model.
 - **Position bias:** 87.5% consistency (7/8) across A/B swap — i.e., in 1/8 cases the "winner"
   flipped purely because of which position it was shown in.
-- **Self-preference:** 11/16 judgments (forward) favored the judge's own model; almost identical
-  to the swap-adjusted rate, meaning the effect measured is overwhelmingly **position bias wearing
-  a self-preference costume**, not genuine self-preference.
+- **Self-preference:** 11/16 forward-order judgments favored the judge's own model — but only
+  5/16 after the A/B swap. Combined across both orders that's exactly 16/32 (50%, chance level):
+  averaged over position, the self-preference disappears entirely. The forward/swap swing is the
+  position bias above **wearing a self-preference costume**, not genuine self-preference.
 - **Verbosity bias:** 0/6 padded rationales scored higher after content-free filler was added —
   no verbosity effect detected in this sample.
 
