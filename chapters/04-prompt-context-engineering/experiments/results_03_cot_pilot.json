@@ -1,0 +1,646 @@
+{
+  "model": "llama3.2:3b",
+  "num_ctx": 8192,
+  "n_sample": 20,
+  "conditions": {
+    "B": {
+      "wall_seconds_per_row": {
+        "mean": 11.975,
+        "std": 2.809
+      },
+      "response_tokens": {
+        "mean": 79.95,
+        "std": 17.302
+      },
+      "estimated_full_1001_rows_hours": 3.33,
+      "rows": [
+        {
+          "complaint_id": "20296247",
+          "total_duration_ms": 8978.7,
+          "load_duration_ms": 629.1,
+          "prompt_eval_duration_ms": 2996.0,
+          "eval_duration_ms": 5282.4,
+          "prompt_eval_count": 355,
+          "eval_count": 80,
+          "wall_seconds": 11.061
+        },
+        {
+          "complaint_id": "19779696",
+          "total_duration_ms": 8664.9,
+          "load_duration_ms": 646.5,
+          "prompt_eval_duration_ms": 3235.6,
+          "eval_duration_ms": 4760.9,
+          "prompt_eval_count": 353,
+          "eval_count": 74,
+          "wall_seconds": 10.717
+        },
+        {
+          "complaint_id": "21218181",
+          "total_duration_ms": 5142.4,
+          "load_duration_ms": 671.9,
+          "prompt_eval_duration_ms": 1446.6,
+          "eval_duration_ms": 2997.3,
+          "prompt_eval_count": 219,
+          "eval_count": 48,
+          "wall_seconds": 7.213
+        },
+        {
+          "complaint_id": "19681074",
+          "total_duration_ms": 8365.0,
+          "load_duration_ms": 616.8,
+          "prompt_eval_duration_ms": 2447.8,
+          "eval_duration_ms": 5279.0,
+          "prompt_eval_count": 298,
+          "eval_count": 84,
+          "wall_seconds": 10.446
+        },
+        {
+          "complaint_id": "18601854",
+          "total_duration_ms": 6885.8,
+          "load_duration_ms": 644.3,
+          "prompt_eval_duration_ms": 1275.1,
+          "eval_duration_ms": 4938.4,
+          "prompt_eval_count": 208,
+          "eval_count": 78,
+          "wall_seconds": 8.913
+        },
+        {
+          "complaint_id": "21282575",
+          "total_duration_ms": 10594.1,
+          "load_duration_ms": 688.8,
+          "prompt_eval_duration_ms": 4523.4,
+          "eval_duration_ms": 5352.6,
+          "prompt_eval_count": 431,
+          "eval_count": 78,
+          "wall_seconds": 12.661
+        },
+        {
+          "complaint_id": "19053846",
+          "total_duration_ms": 8866.9,
+          "load_duration_ms": 612.5,
+          "prompt_eval_duration_ms": 3811.1,
+          "eval_duration_ms": 4397.9,
+          "prompt_eval_count": 340,
+          "eval_count": 56,
+          "wall_seconds": 10.905
+        },
+        {
+          "complaint_id": "18985802",
+          "total_duration_ms": 8166.3,
+          "load_duration_ms": 597.1,
+          "prompt_eval_duration_ms": 1688.2,
+          "eval_duration_ms": 5857.6,
+          "prompt_eval_count": 220,
+          "eval_count": 80,
+          "wall_seconds": 10.254
+        },
+        {
+          "complaint_id": "19569372",
+          "total_duration_ms": 11784.1,
+          "load_duration_ms": 642.5,
+          "prompt_eval_duration_ms": 4871.9,
+          "eval_duration_ms": 6247.2,
+          "prompt_eval_count": 401,
+          "eval_count": 72,
+          "wall_seconds": 13.852
+        },
+        {
+          "complaint_id": "18877548",
+          "total_duration_ms": 11301.7,
+          "load_duration_ms": 659.8,
+          "prompt_eval_duration_ms": 3566.2,
+          "eval_duration_ms": 7036.1,
+          "prompt_eval_count": 358,
+          "eval_count": 93,
+          "wall_seconds": 13.387
+        },
+        {
+          "complaint_id": "21509706",
+          "total_duration_ms": 5582.3,
+          "load_duration_ms": 584.8,
+          "prompt_eval_duration_ms": 2004.1,
+          "eval_duration_ms": 2960.3,
+          "prompt_eval_count": 236,
+          "eval_count": 40,
+          "wall_seconds": 7.651
+        },
+        {
+          "complaint_id": "19021017",
+          "total_duration_ms": 10697.4,
+          "load_duration_ms": 566.4,
+          "prompt_eval_duration_ms": 3216.1,
+          "eval_duration_ms": 6896.4,
+          "prompt_eval_count": 323,
+          "eval_count": 91,
+          "wall_seconds": 12.755
+        },
+        {
+          "complaint_id": "20136041",
+          "total_duration_ms": 9867.5,
+          "load_duration_ms": 621.0,
+          "prompt_eval_duration_ms": 3217.4,
+          "eval_duration_ms": 5987.3,
+          "prompt_eval_count": 349,
+          "eval_count": 80,
+          "wall_seconds": 11.918
+        },
+        {
+          "complaint_id": "20545731",
+          "total_duration_ms": 10137.8,
+          "load_duration_ms": 613.4,
+          "prompt_eval_duration_ms": 2093.5,
+          "eval_duration_ms": 7405.8,
+          "prompt_eval_count": 251,
+          "eval_count": 100,
+          "wall_seconds": 12.191
+        },
+        {
+          "complaint_id": "20889769",
+          "total_duration_ms": 12394.3,
+          "load_duration_ms": 597.7,
+          "prompt_eval_duration_ms": 2314.7,
+          "eval_duration_ms": 9462.2,
+          "prompt_eval_count": 250,
+          "eval_count": 99,
+          "wall_seconds": 14.443
+        },
+        {
+          "complaint_id": "21162582",
+          "total_duration_ms": 17614.4,
+          "load_duration_ms": 545.1,
+          "prompt_eval_duration_ms": 7517.7,
+          "eval_duration_ms": 9521.7,
+          "prompt_eval_count": 496,
+          "eval_count": 92,
+          "wall_seconds": 19.691
+        },
+        {
+          "complaint_id": "21152550",
+          "total_duration_ms": 8227.8,
+          "load_duration_ms": 662.1,
+          "prompt_eval_duration_ms": 2426.0,
+          "eval_duration_ms": 5094.7,
+          "prompt_eval_count": 231,
+          "eval_count": 67,
+          "wall_seconds": 10.288
+        },
+        {
+          "complaint_id": "20327371",
+          "total_duration_ms": 10676.9,
+          "load_duration_ms": 621.2,
+          "prompt_eval_duration_ms": 3276.4,
+          "eval_duration_ms": 6752.5,
+          "prompt_eval_count": 349,
+          "eval_count": 85,
+          "wall_seconds": 12.779
+        },
+        {
+          "complaint_id": "19902068",
+          "total_duration_ms": 14638.0,
+          "load_duration_ms": 609.3,
+          "prompt_eval_duration_ms": 4252.5,
+          "eval_duration_ms": 9745.7,
+          "prompt_eval_count": 328,
+          "eval_count": 115,
+          "wall_seconds": 16.705
+        },
+        {
+          "complaint_id": "21223933",
+          "total_duration_ms": 9613.4,
+          "load_duration_ms": 628.1,
+          "prompt_eval_duration_ms": 2845.3,
+          "eval_duration_ms": 6105.3,
+          "prompt_eval_count": 314,
+          "eval_count": 87,
+          "wall_seconds": 11.667
+        }
+      ]
+    },
+    "C": {
+      "wall_seconds_per_row": {
+        "mean": 8.49,
+        "std": 1.277
+      },
+      "response_tokens": {
+        "mean": 42.65,
+        "std": 8.422
+      },
+      "estimated_full_1001_rows_hours": 2.36,
+      "rows": [
+        {
+          "complaint_id": "20296247",
+          "total_duration_ms": 8075.7,
+          "load_duration_ms": 656.6,
+          "prompt_eval_duration_ms": 3746.0,
+          "eval_duration_ms": 3647.1,
+          "prompt_eval_count": 358,
+          "eval_count": 42,
+          "wall_seconds": 10.135
+        },
+        {
+          "complaint_id": "19779696",
+          "total_duration_ms": 8138.3,
+          "load_duration_ms": 711.7,
+          "prompt_eval_duration_ms": 3750.2,
+          "eval_duration_ms": 3597.8,
+          "prompt_eval_count": 356,
+          "eval_count": 36,
+          "wall_seconds": 10.214
+        },
+        {
+          "complaint_id": "21218181",
+          "total_duration_ms": 6683.4,
+          "load_duration_ms": 689.4,
+          "prompt_eval_duration_ms": 1684.9,
+          "eval_duration_ms": 4280.2,
+          "prompt_eval_count": 222,
+          "eval_count": 46,
+          "wall_seconds": 8.745
+        },
+        {
+          "complaint_id": "19681074",
+          "total_duration_ms": 6984.5,
+          "load_duration_ms": 575.5,
+          "prompt_eval_duration_ms": 3117.3,
+          "eval_duration_ms": 3272.6,
+          "prompt_eval_count": 301,
+          "eval_count": 32,
+          "wall_seconds": 9.05
+        },
+        {
+          "complaint_id": "18601854",
+          "total_duration_ms": 4131.8,
+          "load_duration_ms": 630.8,
+          "prompt_eval_duration_ms": 1165.2,
+          "eval_duration_ms": 2312.3,
+          "prompt_eval_count": 211,
+          "eval_count": 36,
+          "wall_seconds": 6.183
+        },
+        {
+          "complaint_id": "21282575",
+          "total_duration_ms": 8537.5,
+          "load_duration_ms": 637.6,
+          "prompt_eval_duration_ms": 4382.7,
+          "eval_duration_ms": 3508.5,
+          "prompt_eval_count": 434,
+          "eval_count": 47,
+          "wall_seconds": 10.575
+        },
+        {
+          "complaint_id": "19053846",
+          "total_duration_ms": 7159.7,
+          "load_duration_ms": 678.0,
+          "prompt_eval_duration_ms": 3040.4,
+          "eval_duration_ms": 3410.9,
+          "prompt_eval_count": 343,
+          "eval_count": 45,
+          "wall_seconds": 9.216
+        },
+        {
+          "complaint_id": "18985802",
+          "total_duration_ms": 5475.4,
+          "load_duration_ms": 649.3,
+          "prompt_eval_duration_ms": 1371.5,
+          "eval_duration_ms": 3425.9,
+          "prompt_eval_count": 223,
+          "eval_count": 46,
+          "wall_seconds": 7.526
+        },
+        {
+          "complaint_id": "19569372",
+          "total_duration_ms": 7487.5,
+          "load_duration_ms": 655.6,
+          "prompt_eval_duration_ms": 4301.3,
+          "eval_duration_ms": 2509.2,
+          "prompt_eval_count": 404,
+          "eval_count": 32,
+          "wall_seconds": 9.567
+        },
+        {
+          "complaint_id": "18877548",
+          "total_duration_ms": 5698.1,
+          "load_duration_ms": 652.7,
+          "prompt_eval_duration_ms": 2806.1,
+          "eval_duration_ms": 2207.7,
+          "prompt_eval_count": 361,
+          "eval_count": 36,
+          "wall_seconds": 7.764
+        },
+        {
+          "complaint_id": "21509706",
+          "total_duration_ms": 5003.7,
+          "load_duration_ms": 709.6,
+          "prompt_eval_duration_ms": 1347.8,
+          "eval_duration_ms": 2916.3,
+          "prompt_eval_count": 239,
+          "eval_count": 48,
+          "wall_seconds": 7.068
+        },
+        {
+          "complaint_id": "19021017",
+          "total_duration_ms": 4973.8,
+          "load_duration_ms": 688.0,
+          "prompt_eval_duration_ms": 2523.6,
+          "eval_duration_ms": 1743.4,
+          "prompt_eval_count": 326,
+          "eval_count": 29,
+          "wall_seconds": 7.027
+        },
+        {
+          "complaint_id": "20136041",
+          "total_duration_ms": 7695.2,
+          "load_duration_ms": 667.2,
+          "prompt_eval_duration_ms": 2767.1,
+          "eval_duration_ms": 4239.7,
+          "prompt_eval_count": 352,
+          "eval_count": 61,
+          "wall_seconds": 9.771
+        },
+        {
+          "complaint_id": "20545731",
+          "total_duration_ms": 5679.3,
+          "load_duration_ms": 673.6,
+          "prompt_eval_duration_ms": 1617.8,
+          "eval_duration_ms": 3362.4,
+          "prompt_eval_count": 254,
+          "eval_count": 55,
+          "wall_seconds": 7.73
+        },
+        {
+          "complaint_id": "20889769",
+          "total_duration_ms": 5683.3,
+          "load_duration_ms": 639.1,
+          "prompt_eval_duration_ms": 1529.8,
+          "eval_duration_ms": 3494.5,
+          "prompt_eval_count": 253,
+          "eval_count": 53,
+          "wall_seconds": 7.75
+        },
+        {
+          "complaint_id": "21162582",
+          "total_duration_ms": 8131.6,
+          "load_duration_ms": 711.0,
+          "prompt_eval_duration_ms": 4758.3,
+          "eval_duration_ms": 2638.7,
+          "prompt_eval_count": 499,
+          "eval_count": 36,
+          "wall_seconds": 10.181
+        },
+        {
+          "complaint_id": "21152550",
+          "total_duration_ms": 4806.0,
+          "load_duration_ms": 716.0,
+          "prompt_eval_duration_ms": 1260.5,
+          "eval_duration_ms": 2797.7,
+          "prompt_eval_count": 234,
+          "eval_count": 46,
+          "wall_seconds": 6.863
+        },
+        {
+          "complaint_id": "20327371",
+          "total_duration_ms": 6885.0,
+          "load_duration_ms": 734.5,
+          "prompt_eval_duration_ms": 2747.3,
+          "eval_duration_ms": 3381.9,
+          "prompt_eval_count": 352,
+          "eval_count": 52,
+          "wall_seconds": 8.937
+        },
+        {
+          "complaint_id": "19902068",
+          "total_duration_ms": 5629.5,
+          "load_duration_ms": 700.9,
+          "prompt_eval_duration_ms": 2615.4,
+          "eval_duration_ms": 2284.5,
+          "prompt_eval_count": 331,
+          "eval_count": 36,
+          "wall_seconds": 7.679
+        },
+        {
+          "complaint_id": "21223933",
+          "total_duration_ms": 5758.0,
+          "load_duration_ms": 697.6,
+          "prompt_eval_duration_ms": 2402.7,
+          "eval_duration_ms": 2630.2,
+          "prompt_eval_count": 317,
+          "eval_count": 39,
+          "wall_seconds": 7.818
+        }
+      ]
+    },
+    "D": {
+      "wall_seconds_per_row": {
+        "mean": 11.416,
+        "std": 3.281
+      },
+      "response_tokens": {
+        "mean": 100.15,
+        "std": 42.644
+      },
+      "estimated_full_1001_rows_hours": 3.17,
+      "rows": [
+        {
+          "complaint_id": "20296247",
+          "total_duration_ms": 15415.6,
+          "load_duration_ms": 666.5,
+          "prompt_eval_duration_ms": 820.7,
+          "eval_duration_ms": 13887.2,
+          "prompt_eval_count": 375,
+          "eval_count": 188,
+          "wall_seconds": 17.484
+        },
+        {
+          "complaint_id": "19779696",
+          "total_duration_ms": 6746.3,
+          "load_duration_ms": 643.3,
+          "prompt_eval_duration_ms": 881.1,
+          "eval_duration_ms": 5172.1,
+          "prompt_eval_count": 373,
+          "eval_count": 71,
+          "wall_seconds": 8.809
+        },
+        {
+          "complaint_id": "21218181",
+          "total_duration_ms": 8752.0,
+          "load_duration_ms": 626.9,
+          "prompt_eval_duration_ms": 1434.6,
+          "eval_duration_ms": 6649.9,
+          "prompt_eval_count": 239,
+          "eval_count": 96,
+          "wall_seconds": 10.807
+        },
+        {
+          "complaint_id": "19681074",
+          "total_duration_ms": 8002.5,
+          "load_duration_ms": 710.8,
+          "prompt_eval_duration_ms": 2509.1,
+          "eval_duration_ms": 4758.2,
+          "prompt_eval_count": 318,
+          "eval_count": 66,
+          "wall_seconds": 10.08
+        },
+        {
+          "complaint_id": "18601854",
+          "total_duration_ms": 7954.8,
+          "load_duration_ms": 645.4,
+          "prompt_eval_duration_ms": 1399.2,
+          "eval_duration_ms": 5871.6,
+          "prompt_eval_count": 228,
+          "eval_count": 83,
+          "wall_seconds": 9.999
+        },
+        {
+          "complaint_id": "21282575",
+          "total_duration_ms": 7577.5,
+          "load_duration_ms": 676.6,
+          "prompt_eval_duration_ms": 840.8,
+          "eval_duration_ms": 6024.4,
+          "prompt_eval_count": 451,
+          "eval_count": 84,
+          "wall_seconds": 9.611
+        },
+        {
+          "complaint_id": "19053846",
+          "total_duration_ms": 7562.3,
+          "load_duration_ms": 670.9,
+          "prompt_eval_duration_ms": 789.9,
+          "eval_duration_ms": 6051.5,
+          "prompt_eval_count": 360,
+          "eval_count": 88,
+          "wall_seconds": 9.635
+        },
+        {
+          "complaint_id": "18985802",
+          "total_duration_ms": 6807.5,
+          "load_duration_ms": 664.5,
+          "prompt_eval_duration_ms": 769.0,
+          "eval_duration_ms": 5328.2,
+          "prompt_eval_count": 240,
+          "eval_count": 67,
+          "wall_seconds": 8.884
+        },
+        {
+          "complaint_id": "19569372",
+          "total_duration_ms": 8448.2,
+          "load_duration_ms": 606.0,
+          "prompt_eval_duration_ms": 839.2,
+          "eval_duration_ms": 6964.0,
+          "prompt_eval_count": 421,
+          "eval_count": 95,
+          "wall_seconds": 10.537
+        },
+        {
+          "complaint_id": "18877548",
+          "total_duration_ms": 9659.5,
+          "load_duration_ms": 574.5,
+          "prompt_eval_duration_ms": 837.3,
+          "eval_duration_ms": 8200.0,
+          "prompt_eval_count": 378,
+          "eval_count": 96,
+          "wall_seconds": 11.739
+        },
+        {
+          "complaint_id": "21509706",
+          "total_duration_ms": 6767.9,
+          "load_duration_ms": 619.4,
+          "prompt_eval_duration_ms": 1733.5,
+          "eval_duration_ms": 4373.3,
+          "prompt_eval_count": 256,
+          "eval_count": 54,
+          "wall_seconds": 8.851
+        },
+        {
+          "complaint_id": "19021017",
+          "total_duration_ms": 11481.6,
+          "load_duration_ms": 670.9,
+          "prompt_eval_duration_ms": 2849.1,
+          "eval_duration_ms": 7929.8,
+          "prompt_eval_count": 343,
+          "eval_count": 102,
+          "wall_seconds": 13.537
+        },
+        {
+          "complaint_id": "20136041",
+          "total_duration_ms": 7875.4,
+          "load_duration_ms": 1953.6,
+          "prompt_eval_duration_ms": 861.6,
+          "eval_duration_ms": 5019.3,
+          "prompt_eval_count": 369,
+          "eval_count": 75,
+          "wall_seconds": 10.177
+        },
+        {
+          "complaint_id": "20545731",
+          "total_duration_ms": 14129.3,
+          "load_duration_ms": 609.0,
+          "prompt_eval_duration_ms": 754.0,
+          "eval_duration_ms": 12732.3,
+          "prompt_eval_count": 271,
+          "eval_count": 172,
+          "wall_seconds": 16.19
+        },
+        {
+          "complaint_id": "20889769",
+          "total_duration_ms": 10955.0,
+          "load_duration_ms": 580.0,
+          "prompt_eval_duration_ms": 742.8,
+          "eval_duration_ms": 9592.5,
+          "prompt_eval_count": 270,
+          "eval_count": 121,
+          "wall_seconds": 13.009
+        },
+        {
+          "complaint_id": "21162582",
+          "total_duration_ms": 19186.4,
+          "load_duration_ms": 621.8,
+          "prompt_eval_duration_ms": 941.3,
+          "eval_duration_ms": 17572.2,
+          "prompt_eval_count": 516,
+          "eval_count": 220,
+          "wall_seconds": 21.243
+        },
+        {
+          "complaint_id": "21152550",
+          "total_duration_ms": 6171.9,
+          "load_duration_ms": 599.1,
+          "prompt_eval_duration_ms": 757.4,
+          "eval_duration_ms": 4765.4,
+          "prompt_eval_count": 251,
+          "eval_count": 64,
+          "wall_seconds": 8.222
+        },
+        {
+          "complaint_id": "20327371",
+          "total_duration_ms": 8803.5,
+          "load_duration_ms": 539.3,
+          "prompt_eval_duration_ms": 828.0,
+          "eval_duration_ms": 7396.3,
+          "prompt_eval_count": 369,
+          "eval_count": 98,
+          "wall_seconds": 10.864
+        },
+        {
+          "complaint_id": "19902068",
+          "total_duration_ms": 7342.0,
+          "load_duration_ms": 583.7,
+          "prompt_eval_duration_ms": 774.7,
+          "eval_duration_ms": 5940.9,
+          "prompt_eval_count": 348,
+          "eval_count": 86,
+          "wall_seconds": 9.393
+        },
+        {
+          "complaint_id": "21223933",
+          "total_duration_ms": 7176.0,
+          "load_duration_ms": 622.9,
+          "prompt_eval_duration_ms": 824.5,
+          "eval_duration_ms": 5688.7,
+          "prompt_eval_count": 334,
+          "eval_count": 77,
+          "wall_seconds": 9.256
+        }
+      ]
+    }
+  }
+}

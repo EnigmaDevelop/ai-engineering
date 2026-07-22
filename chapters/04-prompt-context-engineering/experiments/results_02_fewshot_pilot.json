@@ -1,0 +1,237 @@
+{
+  "model": "llama3.2:3b",
+  "num_ctx": 8192,
+  "n_sample": 20,
+  "wall_seconds_per_row": {
+    "mean": 12.382,
+    "std": 6.752
+  },
+  "prompt_tokens": {
+    "mean": 1334.0,
+    "std": 140.684
+  },
+  "estimated_full_1001_rows_hours": 3.44,
+  "note": "1,001 total calls at full scale (one pass, fold-specific exemplars per row), NOT 1,001x5 \u2014 see plan Phase 3",
+  "rows": [
+    {
+      "complaint_id": "19102984",
+      "fold": 4,
+      "total_duration_ms": 23624.9,
+      "load_duration_ms": 4674.3,
+      "prompt_eval_duration_ms": 16363.6,
+      "eval_duration_ms": 2569.3,
+      "prompt_eval_count": 1460,
+      "eval_count": 35,
+      "wall_seconds": 25.691
+    },
+    {
+      "complaint_id": "19559455",
+      "fold": 0,
+      "total_duration_ms": 20170.9,
+      "load_duration_ms": 692.9,
+      "prompt_eval_duration_ms": 16822.8,
+      "eval_duration_ms": 2569.3,
+      "prompt_eval_count": 1345,
+      "eval_count": 36,
+      "wall_seconds": 22.237
+    },
+    {
+      "complaint_id": "19778644",
+      "fold": 1,
+      "total_duration_ms": 20239.6,
+      "load_duration_ms": 698.2,
+      "prompt_eval_duration_ms": 17993.9,
+      "eval_duration_ms": 1463.3,
+      "prompt_eval_count": 1432,
+      "eval_count": 20,
+      "wall_seconds": 22.333
+    },
+    {
+      "complaint_id": "19275408",
+      "fold": 4,
+      "total_duration_ms": 9578.1,
+      "load_duration_ms": 638.8,
+      "prompt_eval_duration_ms": 6427.2,
+      "eval_duration_ms": 2406.8,
+      "prompt_eval_count": 1579,
+      "eval_count": 34,
+      "wall_seconds": 11.649
+    },
+    {
+      "complaint_id": "19682298",
+      "fold": 1,
+      "total_duration_ms": 4446.0,
+      "load_duration_ms": 747.5,
+      "prompt_eval_duration_ms": 2137.5,
+      "eval_duration_ms": 1446.9,
+      "prompt_eval_count": 1382,
+      "eval_count": 20,
+      "wall_seconds": 6.511
+    },
+    {
+      "complaint_id": "21723064",
+      "fold": 0,
+      "total_duration_ms": 7964.0,
+      "load_duration_ms": 669.9,
+      "prompt_eval_duration_ms": 5233.7,
+      "eval_duration_ms": 1969.6,
+      "prompt_eval_count": 1268,
+      "eval_count": 28,
+      "wall_seconds": 10.04
+    },
+    {
+      "complaint_id": "21510754",
+      "fold": 3,
+      "total_duration_ms": 20098.8,
+      "load_duration_ms": 614.5,
+      "prompt_eval_duration_ms": 17315.2,
+      "eval_duration_ms": 2094.6,
+      "prompt_eval_count": 1329,
+      "eval_count": 27,
+      "wall_seconds": 22.173
+    },
+    {
+      "complaint_id": "18536079",
+      "fold": 3,
+      "total_duration_ms": 4643.2,
+      "load_duration_ms": 644.6,
+      "prompt_eval_duration_ms": 2091.0,
+      "eval_duration_ms": 1896.3,
+      "prompt_eval_count": 1142,
+      "eval_count": 27,
+      "wall_seconds": 6.695
+    },
+    {
+      "complaint_id": "21162935",
+      "fold": 3,
+      "total_duration_ms": 4806.6,
+      "load_duration_ms": 634.5,
+      "prompt_eval_duration_ms": 2220.4,
+      "eval_duration_ms": 1943.0,
+      "prompt_eval_count": 1147,
+      "eval_count": 27,
+      "wall_seconds": 6.866
+    },
+    {
+      "complaint_id": "19682271",
+      "fold": 2,
+      "total_duration_ms": 23791.0,
+      "load_duration_ms": 690.3,
+      "prompt_eval_duration_ms": 21101.4,
+      "eval_duration_ms": 1929.4,
+      "prompt_eval_count": 1407,
+      "eval_count": 23,
+      "wall_seconds": 25.87
+    },
+    {
+      "complaint_id": "21285607",
+      "fold": 4,
+      "total_duration_ms": 5341.9,
+      "load_duration_ms": 626.2,
+      "prompt_eval_duration_ms": 2060.1,
+      "eval_duration_ms": 2556.0,
+      "prompt_eval_count": 1279,
+      "eval_count": 35,
+      "wall_seconds": 7.386
+    },
+    {
+      "complaint_id": "21719408",
+      "fold": 1,
+      "total_duration_ms": 9055.4,
+      "load_duration_ms": 679.7,
+      "prompt_eval_duration_ms": 5559.9,
+      "eval_duration_ms": 2716.6,
+      "prompt_eval_count": 1599,
+      "eval_count": 31,
+      "wall_seconds": 11.113
+    },
+    {
+      "complaint_id": "19342272",
+      "fold": 3,
+      "total_duration_ms": 8550.6,
+      "load_duration_ms": 699.7,
+      "prompt_eval_duration_ms": 5403.0,
+      "eval_duration_ms": 2351.6,
+      "prompt_eval_count": 1340,
+      "eval_count": 27,
+      "wall_seconds": 10.612
+    },
+    {
+      "complaint_id": "18530685",
+      "fold": 0,
+      "total_duration_ms": 5887.6,
+      "load_duration_ms": 682.7,
+      "prompt_eval_duration_ms": 2602.6,
+      "eval_duration_ms": 2499.9,
+      "prompt_eval_count": 1111,
+      "eval_count": 34,
+      "wall_seconds": 7.934
+    },
+    {
+      "complaint_id": "21927963",
+      "fold": 0,
+      "total_duration_ms": 6475.7,
+      "load_duration_ms": 654.7,
+      "prompt_eval_duration_ms": 3496.7,
+      "eval_duration_ms": 2314.3,
+      "prompt_eval_count": 1183,
+      "eval_count": 30,
+      "wall_seconds": 8.533
+    },
+    {
+      "complaint_id": "21479350",
+      "fold": 2,
+      "total_duration_ms": 7861.6,
+      "load_duration_ms": 660.9,
+      "prompt_eval_duration_ms": 5093.6,
+      "eval_duration_ms": 2026.9,
+      "prompt_eval_count": 1429,
+      "eval_count": 23,
+      "wall_seconds": 9.945
+    },
+    {
+      "complaint_id": "21290380",
+      "fold": 3,
+      "total_duration_ms": 4009.4,
+      "load_duration_ms": 626.6,
+      "prompt_eval_duration_ms": 1661.6,
+      "eval_duration_ms": 1643.0,
+      "prompt_eval_count": 1111,
+      "eval_count": 23,
+      "wall_seconds": 6.059
+    },
+    {
+      "complaint_id": "18447502",
+      "fold": 1,
+      "total_duration_ms": 5537.5,
+      "load_duration_ms": 675.2,
+      "prompt_eval_duration_ms": 2461.5,
+      "eval_duration_ms": 2322.4,
+      "prompt_eval_count": 1410,
+      "eval_count": 30,
+      "wall_seconds": 7.612
+    },
+    {
+      "complaint_id": "19953119",
+      "fold": 4,
+      "total_duration_ms": 5670.0,
+      "load_duration_ms": 672.8,
+      "prompt_eval_duration_ms": 2170.5,
+      "eval_duration_ms": 2727.2,
+      "prompt_eval_count": 1279,
+      "eval_count": 35,
+      "wall_seconds": 7.748
+    },
+    {
+      "complaint_id": "19215219",
+      "fold": 2,
+      "total_duration_ms": 8564.8,
+      "load_duration_ms": 625.4,
+      "prompt_eval_duration_ms": 5483.8,
+      "eval_duration_ms": 2375.4,
+      "prompt_eval_count": 1448,
+      "eval_count": 26,
+      "wall_seconds": 10.625
+    }
+  ]
+}
